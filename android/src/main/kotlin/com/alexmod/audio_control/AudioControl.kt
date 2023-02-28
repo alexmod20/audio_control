@@ -16,7 +16,6 @@ import android.support.v4.media.session.MediaControllerCompat
 import android.support.v4.media.session.PlaybackStateCompat
 import android.util.Log
 import androidx.annotation.RequiresApi
-import androidx.core.content.ContextCompat
 import androidx.core.content.res.ResourcesCompat
 import androidx.media.MediaBrowserServiceCompat
 
@@ -29,17 +28,6 @@ class AudioControl {
     private var mediaBrowser: MediaBrowserCompat? = null
     private var mediaController: MediaControllerCompat? = null
     private lateinit var mCallback: MediaControllerCompat.Callback
-
-
-//    fun onAppListUpdated(
-//        mediaAppDetails: List<MediaAppDetails?>
-//    ) {
-//        if (mediaAppDetails.isEmpty()) {
-//            return
-//        }
-//        //    mMediaSessionApps.setAppsList(mediaAppDetails)
-//        Log.d("onAppListUpdated", mediaAppDetails.size.toString())
-//    }
 
     private var mMediaSessionManager: MediaSessionManager? = null
 
@@ -62,7 +50,7 @@ class AudioControl {
             OnActiveSessionsChangedListener { list ->
                 Log.d(TAG, "onActiveSessionsChanged: session is changed")
                 activeMediaAppDetailsList = MediaAppDetailsUtils.getMediaAppsFromControllers(
-                    list, context!!.packageManager, context.resources
+                    list, context!!.packageManager
                 )
                 onActiveSessionsChanged(activeMediaAppDetailsList.map { mediaAppDetails -> mediaAppDetails.toHasMap() })
             }
@@ -92,7 +80,6 @@ class AudioControl {
                     MediaAppDetailsUtils.infoToMediaAppDetails(
                         info.serviceInfo,
                         packageManager,
-                        context.resources,
                         null
                     )
                 )
@@ -105,7 +92,7 @@ class AudioControl {
     fun getActiveSession(context: Context): List<HashMap<String, Any?>> {
         val list = mMediaSessionManager!!.getActiveSessions(listenerComponent)
         activeMediaAppDetailsList = MediaAppDetailsUtils.getMediaAppsFromControllers(
-            list, context!!.packageManager, context.resources
+            list, context.packageManager
         )
         return activeMediaAppDetailsList.map { mediaAppDetails -> mediaAppDetails.toHasMap() }
     }
@@ -121,7 +108,6 @@ class AudioControl {
         try {
             val token = mMediaAppDetails?.sessionToken
             if (token == null) {
-//                token = mediaBrowser!!.sessionToken
                 return false
             } else {
                 mediaController = MediaControllerCompat(context, token)
@@ -129,9 +115,7 @@ class AudioControl {
                     val resources = context.packageManager.getResourcesForApplication(packageName)
                     mCallback = getMediaControllerCallback(resources, onStateChanged, onSessionDestroyed)
                     mediaController!!.registerCallback(mCallback)
-//            mRatingUiHelper = ratingUiHelperFor(mediaController.ratingType)
 
-                    // Force update on connect.
                     mCallback.onPlaybackStateChanged(mediaController!!.playbackState)
                     mCallback.onMetadataChanged(mediaController!!.metadata)
                 }
@@ -156,7 +140,6 @@ class AudioControl {
             override fun onPlaybackStateChanged(playbackState: PlaybackStateCompat) {
                 Log.d(TAG, "onPlaybackStateChanged: PlaybackState is changed")
                 val mediaMetadata: MediaMetadataCompat = mediaController!!.metadata
-                val actions = playbackState.actions;
                 val customAction = playbackState.customActions
                 val mediaInfo = MediaInfo(
                     title = mediaMetadata.getString(MediaMetadataCompat.METADATA_KEY_TITLE),
@@ -170,7 +153,7 @@ class AudioControl {
                     state = playbackState.state,
                     customAction = customAction.map{ ca -> MediaInfo.customActionToHashMap(ca, BitmapUtils.convertDrawable(
                         ResourcesCompat.getDrawable(
-                            resources, ca.icon,  /* theme = */null
+                            resources, ca.icon,  null
                         )!!
                         )) },
                 )
@@ -178,7 +161,6 @@ class AudioControl {
             }
 
             override fun onMetadataChanged(metadata: MediaMetadataCompat) {
-//                onSessionDestroyed()
                 Log.d(TAG, "onMetadataChanged: Metadata is changed")
             }
 
@@ -215,46 +197,10 @@ class AudioControl {
         }
     }
 
-    fun onStart(context: Context) {
-//            if (!NotificationListener.isEnabled(context!!)) {
-//                mMediaSessionApps.setError(
-//                    R.string.no_apps_found,
-//                    R.string.no_apps_reason_missing_permission,
-//                    R.string.action_notification_permissions_settings
-//                ) { v ->
-//                    startActivity(
-//                        Intent(
-//                            "android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS"
-//                        )
-//                    )
-//                }
-//                return
-//            }
-        if (!NotificationListener.isEnabled(context!!)) {
-            ContextCompat.startActivity(
-                context!!,
-                Intent(
-                    "android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS"
-                ),
-                Bundle()
-            )
-            return
-        }
-        if (mMediaSessionManager == null) {
-            return
-        }
-        val listenerComponent = ComponentName(context!!, NotificationListener::class.java)
-//        mMediaSessionManager!!.addOnActiveSessionsChangedListener(
-//            sessionsChangedListener, listenerComponent
-//        )
-        mMediaSessionManager!!.getActiveSessions(listenerComponent)
-    }
-
     fun onStop() {
         if (mMediaSessionManager == null) {
             return
         }
-//        mMediaSessionManager!!.removeOnActiveSessionsChangedListener(mSessionsChangedListener)
 
         mediaController?.let {
             it.unregisterCallback(mCallback)

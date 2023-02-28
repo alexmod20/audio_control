@@ -11,13 +11,8 @@ import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler
 import io.flutter.plugin.common.MethodChannel.Result
 
-/** AudioControlPlugin */
 @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
 class AudioControlPlugin : FlutterPlugin, MethodCallHandler {
-    /// The MethodChannel that will the communication between Flutter and native Android
-    ///
-    /// This local reference serves to register the plugin with the Flutter Engine and unregister it
-    /// when the Flutter Engine is detached from the Activity
     private lateinit var channel: MethodChannel
     private lateinit var mContext: Context
     private val audioControl = AudioControl()
@@ -40,23 +35,12 @@ class AudioControlPlugin : FlutterPlugin, MethodCallHandler {
             "getActiveSession" -> result.success(audioControl.getActiveSession(mContext))
             "getMediaApps" -> result.success(audioControl.getMediaApps(mContext))
             "controlMediaApp" -> {
-//                val args: ArrayList<Long> = call.arguments as ArrayList<Long>
-//                val callbackHandle = args[0]
                 result.success(audioControl.setupMediaController(
                     mContext,
                     call.arguments as String,
                     { mediaInfo -> channel.invokeMethod("stateChanged", mediaInfo.toHasMap()); },
                     { channel.invokeMethod("sessionDestroyed", null); }
-                ));
-
-//                result.success(
-//                    audioControl.setupMedia(
-//                        mContext,
-//                        call.arguments as Int,
-//                        { connectionSuccess -> connectionSuccess },
-//                        { connectionError -> connectionError }
-//                    )
-//                )
+                ))
             }
             "sendAction" -> {
                 val args = call.arguments as HashMap<String, Int?>

@@ -7,11 +7,8 @@ class MediaAppDetails(
     val packageName: String,
     val appName: String,
     val icon: ByteArray?,
-//    val icon: String?,
     val banner: ByteArray?,
-    val sessionToken: MediaSessionCompat.Token?,
-    val componentName: ComponentName?,
-//    val supportAuto: Boolean
+    val sessionToken: MediaSessionCompat.Token?
 ) {
 
     fun toHasMap(): HashMap<String, Any?> = hashMapOf(

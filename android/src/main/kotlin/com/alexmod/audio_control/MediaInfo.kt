@@ -1,8 +1,6 @@
 package com.alexmod.audio_control
 
-import android.os.Build
 import android.support.v4.media.session.PlaybackStateCompat
-import androidx.annotation.RequiresApi
 
 class MediaInfo(
     val title: String?,
