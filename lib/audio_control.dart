@@ -79,4 +79,8 @@ class AudioControl {
   Future<bool> sendAction(PlayerActions action, {int? seek}) {
     return AudioControlPlatform.instance.sendAction(actionId[action]!, seek);
   }
+
+  Future<bool> sendCustomAction(String action) {
+    return AudioControlPlatform.instance.sendCustomAction(action);
+  }
 }

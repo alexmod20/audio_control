@@ -120,4 +120,10 @@ class MethodChannelAudioControl extends AudioControlPlatform {
     return await methodChannel
         .invokeMethod<dynamic>('sendAction', {"action": action, "seek": seek});
   }
+
+  @override
+  Future<bool> sendCustomAction(String action) async {
+    return await methodChannel.invokeMethod<dynamic>(
+        'sendCustomAction', action);
+  }
 }

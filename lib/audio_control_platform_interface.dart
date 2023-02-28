@@ -80,4 +80,8 @@ abstract class AudioControlPlatform extends PlatformInterface {
   Future<bool> sendAction(int action, int? seek) {
     throw UnimplementedError('getMediaInfo() has not been implemented.');
   }
+
+  Future<bool> sendCustomAction(String action) {
+    throw UnimplementedError('getMediaInfo() has not been implemented.');
+  }
 }

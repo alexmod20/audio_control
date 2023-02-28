@@ -114,6 +114,31 @@ class _PlayerPageState extends State<PlayerPage> {
     );
   }
 
+  Widget _buildCustomActionButtons(List<Map<String, dynamic>> actions) {
+    if (actions.isEmpty) {
+      return Container();
+    } else {
+      return Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: actions
+            .map((action) => SizedBox(
+                  height: 50.0,
+                  width: 50.0,
+                  child: IconButton(
+                    onPressed: () {
+                      AudioControl.instance.sendCustomAction(action["action"]);
+                    },
+                    icon: FadeInImage(
+                      image: MemoryImage(action["icon"]),
+                      placeholder: MemoryImage(action["icon"]),
+                    ),
+                  ),
+                ))
+            .toList(),
+      );
+    }
+  }
+
   Widget _buildAlbumImage(Uint8List? image, String title) {
     if (image != null) {
       return FadeInImage(
@@ -183,14 +208,17 @@ class _PlayerPageState extends State<PlayerPage> {
                             Text(
                               _currentMediaInfo.title.toString(),
                               style: Theme.of(context).textTheme.bodyLarge,
+                              textAlign: TextAlign.center,
                             ),
                             Text(
                               _currentMediaInfo.artist.toString(),
                               style: Theme.of(context).textTheme.bodyLarge,
+                              textAlign: TextAlign.center,
                             ),
                             Text(
                               _currentMediaInfo.album.toString(),
                               style: Theme.of(context).textTheme.bodyLarge,
+                              textAlign: TextAlign.center,
                             ),
                           ],
                         ),
@@ -198,6 +226,10 @@ class _PlayerPageState extends State<PlayerPage> {
                     ),
                     const SizedBox(
                       height: 50.0,
+                    ),
+                    _buildCustomActionButtons(_currentMediaInfo.customAction),
+                    const SizedBox(
+                      height: 12.0,
                     ),
                     _buildPlayerButtons(_currentMediaInfo.state),
                   ],

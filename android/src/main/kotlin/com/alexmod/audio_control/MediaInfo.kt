@@ -22,10 +22,10 @@ class MediaInfo(
     )
 
     companion object {
-        fun customActionToHashMap(customAction: PlaybackStateCompat.CustomAction) : HashMap<String, Any?> {
+        fun customActionToHashMap(customAction: PlaybackStateCompat.CustomAction, icon: ByteArray) : HashMap<String, Any?> {
             return hashMapOf(
                 "name" to customAction.name,
-                "icon" to customAction.icon,
+                "icon" to icon,
                 "action" to customAction.action,
             )
         }

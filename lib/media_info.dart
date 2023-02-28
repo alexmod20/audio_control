@@ -33,7 +33,7 @@ class MediaInfo {
   String? album;
   Uint8List? image;
   PlaybackState state;
-  // List<PlayerActions>? actions;
+  List<Map<String, dynamic>> customAction;
 
   // static final Map<int, PlayerActions> _playerActionsMap = {
   //   0: PlayerActions.STOP,
@@ -69,8 +69,8 @@ class MediaInfo {
         artist = map['artist'],
         album = map['album'],
         state = _playbackStateMap[map['state']]!,
-        image = map['image'];
-  // actions = List.from(map['actions'])
-  //     .map((action) => _playerActionsMap[action]!)
-  //     .toList();
+        image = map['image'],
+        customAction = List.from(map['customAction'])
+            .map((e) => Map<String, dynamic>.from(e))
+            .toList();
 }

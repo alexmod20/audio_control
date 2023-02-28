@@ -1,15 +1,12 @@
 package com.alexmod.audio_control
 
-import android.app.Activity
 import android.content.ComponentName
 import android.content.Context
 import android.content.Context.MEDIA_SESSION_SERVICE
-import android.content.Context.SHORTCUT_SERVICE
 import android.content.Intent
-import android.content.pm.LauncherApps
 import android.content.pm.LauncherApps.ShortcutQuery.*
 import android.content.pm.PackageManager
-import android.content.pm.ShortcutManager
+import android.content.res.Resources
 import android.media.session.MediaSessionManager
 import android.media.session.MediaSessionManager.OnActiveSessionsChangedListener
 import android.os.*
@@ -19,9 +16,8 @@ import android.support.v4.media.session.MediaControllerCompat
 import android.support.v4.media.session.PlaybackStateCompat
 import android.util.Log
 import androidx.annotation.RequiresApi
-import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import androidx.core.content.pm.ShortcutManagerCompat.getShortcuts
+import androidx.core.content.res.ResourcesCompat
 import androidx.media.MediaBrowserServiceCompat
 
 @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
@@ -130,7 +126,8 @@ class AudioControl {
             } else {
                 mediaController = MediaControllerCompat(context, token)
                 mediaController?.let {
-                    mCallback = getMediaControllerCallback(onStateChanged, onSessionDestroyed)
+                    val resources = context.packageManager.getResourcesForApplication(packageName)
+                    mCallback = getMediaControllerCallback(resources, onStateChanged, onSessionDestroyed)
                     mediaController!!.registerCallback(mCallback)
 //            mRatingUiHelper = ratingUiHelperFor(mediaController.ratingType)
 
@@ -151,6 +148,7 @@ class AudioControl {
     }
 
     private fun getMediaControllerCallback(
+        resources: Resources,
         onStateChanged: (MediaInfo) -> Unit,
         onSessionDestroyed: () -> Unit,
     ): MediaControllerCompat.Callback =
@@ -170,7 +168,11 @@ class AudioControl {
                         )
                     ),
                     state = playbackState.state,
-                    customAction = customAction.map{ ca -> MediaInfo.customActionToHashMap(ca) },
+                    customAction = customAction.map{ ca -> MediaInfo.customActionToHashMap(ca, BitmapUtils.convertDrawable(
+                        ResourcesCompat.getDrawable(
+                            resources, ca.icon,  /* theme = */null
+                        )!!
+                        )) },
                 )
                 onStateChanged(mediaInfo)
             }
@@ -204,6 +206,12 @@ class AudioControl {
                     }
                 }
             }
+        }
+    }
+
+    fun performCustomAction(action: String) {
+        mediaController?.let {
+            it.transportControls.sendCustomAction(action, Bundle());
         }
     }
 

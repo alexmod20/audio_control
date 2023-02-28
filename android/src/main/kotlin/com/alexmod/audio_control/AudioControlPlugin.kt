@@ -69,6 +69,15 @@ class AudioControlPlugin : FlutterPlugin, MethodCallHandler {
                     result.success(true)
                 }
             }
+            "sendCustomAction" -> {
+                val action = call.arguments as String?
+                if(action == null) {
+                    result.error("MISSING ARGUMENT", "Action argument missing", null)
+                } else {
+                    audioControl.performCustomAction(action)
+                    result.success(true)
+                }
+            }
             else -> result.notImplemented()
         }
     }
