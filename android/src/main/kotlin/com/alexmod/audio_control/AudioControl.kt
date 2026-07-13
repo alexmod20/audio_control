@@ -180,6 +180,8 @@ class AudioControl {
                     PlaybackStateCompat.ACTION_PAUSE -> pause()
                     PlaybackStateCompat.ACTION_SKIP_TO_NEXT -> skipToNext()
                     PlaybackStateCompat.ACTION_SKIP_TO_PREVIOUS -> skipToPrevious()
+                    PlaybackStateCompat.ACTION_FAST_FORWARD -> fastForward()
+                    PlaybackStateCompat.ACTION_REWIND -> rewind()
                     PlaybackStateCompat.ACTION_SEEK_TO -> {
                         seekTo?.let { seekTo ->
                             val position = it.playbackState.position
