@@ -6,10 +6,10 @@ import android.content.Context.MEDIA_SESSION_SERVICE
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.content.res.Resources
-import android.provider.Settings
 import android.media.session.MediaSessionManager
 import android.media.session.MediaSessionManager.OnActiveSessionsChangedListener
 import android.os.*
+import android.provider.Settings
 import android.support.v4.media.MediaBrowserCompat
 import android.support.v4.media.MediaMetadataCompat
 import android.support.v4.media.session.MediaControllerCompat
