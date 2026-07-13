@@ -44,9 +44,21 @@ android {
     defaultConfig {
         minSdkVersion 16
     }
+
+    testOptions {
+        unitTests.includeAndroidResources = true
+        unitTests.returnDefaultValues = true
+    }
 }
 
 dependencies {
     implementation 'androidx.media:media:1.6.0'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0"
+
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.mockito:mockito-core:5.14.2'
+    testImplementation 'org.mockito.kotlin:mockito-kotlin:5.4.0'
+    testImplementation 'org.robolectric:robolectric:4.14.1'
+    testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.9.0"
 }
