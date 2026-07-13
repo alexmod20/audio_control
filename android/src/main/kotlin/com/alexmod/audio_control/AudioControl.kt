@@ -4,7 +4,6 @@ import android.content.ComponentName
 import android.content.Context
 import android.content.Context.MEDIA_SESSION_SERVICE
 import android.content.Intent
-import android.content.pm.LauncherApps.ShortcutQuery.*
 import android.content.pm.PackageManager
 import android.content.res.Resources
 import android.media.session.MediaSessionManager
