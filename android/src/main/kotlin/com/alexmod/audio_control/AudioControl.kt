@@ -106,29 +106,32 @@ class AudioControl {
     ): Boolean {
         val mMediaAppDetails = activeMediaAppDetailsList.find {
                 mediaAppDetails -> mediaAppDetails.packageName == packageName }
-        try {
-            val token = mMediaAppDetails?.sessionToken
-            if (token == null) {
-                return false
-            } else {
-                mediaController = MediaControllerCompat(context, token)
-                mediaController?.let {
-                    val resources = context.packageManager.getResourcesForApplication(packageName)
-                    mCallback = getMediaControllerCallback(resources, onStateChanged, onSessionDestroyed)
-                    mediaController!!.registerCallback(mCallback)
+        val token = mMediaAppDetails?.sessionToken ?: return false
+        return try {
+            mediaController = MediaControllerCompat(context, token)
+            mediaController?.let {
+                val resources = context.packageManager.getResourcesForApplication(packageName)
+                mCallback = getMediaControllerCallback(resources, onStateChanged, onSessionDestroyed)
+                mediaController!!.registerCallback(mCallback)
 
-                    mCallback.onPlaybackStateChanged(mediaController!!.playbackState)
-                    mCallback.onMetadataChanged(mediaController!!.metadata)
-                }
+                mCallback.onPlaybackStateChanged(mediaController!!.playbackState)
+                mCallback.onMetadataChanged(mediaController!!.metadata)
             }
-            return true
+            true
         } catch (remoteException: RemoteException) {
             Log.e(
                 TAG,
                 "Failed to create MediaController from session token",
                 remoteException
             )
-            return false
+            false
+        } catch (notFoundException: PackageManager.NameNotFoundException) {
+            Log.e(
+                TAG,
+                "Failed to resolve resources for $packageName",
+                notFoundException
+            )
+            false
         }
     }
 
@@ -152,11 +155,11 @@ class AudioControl {
                         )
                     ),
                     state = playbackState.state,
-                    customAction = customAction.map{ ca -> MediaInfo.customActionToHashMap(ca, BitmapUtils.convertDrawable(
-                        ResourcesCompat.getDrawable(
-                            resources, ca.icon,  null
-                        )!!
-                        )) },
+                    customAction = customAction.map { ca ->
+                        val drawable = ResourcesCompat.getDrawable(resources, ca.icon, null)
+                        val icon = if (drawable != null) BitmapUtils.convertDrawable(drawable) else ByteArray(0)
+                        MediaInfo.customActionToHashMap(ca, icon)
+                    },
                 )
                 onStateChanged(mediaInfo)
             }
