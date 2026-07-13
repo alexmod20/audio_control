@@ -50,4 +50,26 @@ class AudioControlGetMediaAppsTest {
 
         assertTrue(callbackResult != null && callbackResult!!.isEmpty())
     }
+
+    @Test
+    fun `getMediaAppsAsync completes with an empty list when queryIntentServices throws`() = runTest {
+        val audioControl = AudioControl()
+        val packageManager = mock<PackageManager>()
+        whenever(
+            packageManager.queryIntentServices(
+                org.mockito.kotlin.any(),
+                org.mockito.kotlin.eq(PackageManager.GET_RESOLVED_FILTER),
+            )
+        ).thenThrow(RuntimeException("Test exception"))
+        val context = mock<Context>()
+        whenever(context.packageManager).thenReturn(packageManager)
+
+        var callbackResult: List<HashMap<String, Any?>>? = null
+        audioControl.getMediaAppsAsync(context, StandardTestDispatcher(testScheduler)) { result ->
+            callbackResult = result
+        }
+        testScheduler.advanceUntilIdle()
+
+        assertTrue(callbackResult != null && callbackResult!!.isEmpty())
+    }
 }

@@ -75,26 +75,33 @@ class AudioControl {
     ) {
         val mediaBrowserIntent = Intent(MediaBrowserServiceCompat.SERVICE_INTERFACE)
         val packageManager = context.packageManager
-        val services = packageManager.queryIntentServices(
-            mediaBrowserIntent,
-            PackageManager.GET_RESOLVED_FILTER
-        )
 
         CoroutineScope(dispatcher).launch {
-            val mediaApps = ArrayList<MediaAppDetails>()
-            for (info in services) {
-                mediaApps.add(
-                    MediaAppDetailsUtils.infoToMediaAppDetails(
-                        info.serviceInfo,
-                        packageManager,
-                        null
-                    )
+            try {
+                val services = packageManager.queryIntentServices(
+                    mediaBrowserIntent,
+                    PackageManager.GET_RESOLVED_FILTER
                 )
-            }
-            mediaAppDetailsList = mediaApps
-            val result = mediaAppDetailsList.map { mediaAppDetails -> mediaAppDetails.toHasMap() }
-            withContext(Dispatchers.Main) {
-                onResult(result)
+                val mediaApps = ArrayList<MediaAppDetails>()
+                for (info in services) {
+                    mediaApps.add(
+                        MediaAppDetailsUtils.infoToMediaAppDetails(
+                            info.serviceInfo,
+                            packageManager,
+                            null
+                        )
+                    )
+                }
+                mediaAppDetailsList = mediaApps
+                val result = mediaAppDetailsList.map { mediaAppDetails -> mediaAppDetails.toHasMap() }
+                withContext(Dispatchers.Main) {
+                    onResult(result)
+                }
+            } catch (e: Exception) {
+                Log.e(TAG, "Failed to get media apps", e)
+                withContext(Dispatchers.Main) {
+                    onResult(emptyList())
+                }
             }
         }
     }
