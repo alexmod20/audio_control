@@ -17,6 +17,11 @@ import android.util.Log
 import androidx.annotation.RequiresApi
 import androidx.core.content.res.ResourcesCompat
 import androidx.media.MediaBrowserServiceCompat
+import kotlinx.coroutines.CoroutineDispatcher
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 
 @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
 class AudioControl {
@@ -63,17 +68,20 @@ class AudioControl {
         return NotificationListener.isEnabled(context) && mMediaSessionManager != null
     }
 
-    fun getMediaApps(context: Context): List<HashMap<String, Any?>> {
-        val mediaApps = ArrayList<MediaAppDetails>()
+    fun getMediaAppsAsync(
+        context: Context,
+        dispatcher: CoroutineDispatcher = Dispatchers.Default,
+        onResult: (List<HashMap<String, Any?>>) -> Unit,
+    ) {
         val mediaBrowserIntent = Intent(MediaBrowserServiceCompat.SERVICE_INTERFACE)
         val packageManager = context.packageManager
-
-        val services = context.packageManager.queryIntentServices(
+        val services = packageManager.queryIntentServices(
             mediaBrowserIntent,
             PackageManager.GET_RESOLVED_FILTER
         )
 
-        if (services.isNotEmpty()) {
+        CoroutineScope(dispatcher).launch {
+            val mediaApps = ArrayList<MediaAppDetails>()
             for (info in services) {
                 mediaApps.add(
                     MediaAppDetailsUtils.infoToMediaAppDetails(
@@ -83,9 +91,12 @@ class AudioControl {
                     )
                 )
             }
+            mediaAppDetailsList = mediaApps
+            val result = mediaAppDetailsList.map { mediaAppDetails -> mediaAppDetails.toHasMap() }
+            withContext(Dispatchers.Main) {
+                onResult(result)
+            }
         }
-        mediaAppDetailsList = mediaApps
-        return mediaAppDetailsList.map { mediaAppDetails -> mediaAppDetails.toHasMap() }
     }
 
     fun getActiveSession(context: Context): List<HashMap<String, Any?>> {

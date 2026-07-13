@@ -33,7 +33,9 @@ class AudioControlPlugin : FlutterPlugin, MethodCallHandler {
             ))
             "isInitialize" -> result.success(audioControl.isInit(mContext))
             "getActiveSession" -> result.success(audioControl.getActiveSession(mContext))
-            "getMediaApps" -> result.success(audioControl.getMediaApps(mContext))
+            "getMediaApps" -> audioControl.getMediaAppsAsync(mContext) { mediaApps ->
+                result.success(mediaApps)
+            }
             "controlMediaApp" -> {
                 result.success(audioControl.setupMediaController(
                     mContext,
