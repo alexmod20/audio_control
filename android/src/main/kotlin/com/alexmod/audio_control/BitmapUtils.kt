@@ -29,7 +29,8 @@ class BitmapUtils {
 
         fun bitmapToByteArray(bitmap: Bitmap) : ByteArray{
             val stream = ByteArrayOutputStream()
-            bitmap.compress(Bitmap.CompressFormat.PNG, 90, stream)
+            // PNG is lossless; the quality argument below is ignored by the platform but required by the API.
+            bitmap.compress(Bitmap.CompressFormat.PNG, 100, stream)
             return stream.toByteArray()
         }
     }

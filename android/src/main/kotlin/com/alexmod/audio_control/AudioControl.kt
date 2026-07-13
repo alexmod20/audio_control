@@ -6,6 +6,7 @@ import android.content.Context.MEDIA_SESSION_SERVICE
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.content.res.Resources
+import android.provider.Settings
 import android.media.session.MediaSessionManager
 import android.media.session.MediaSessionManager.OnActiveSessionsChangedListener
 import android.os.*
@@ -14,7 +15,6 @@ import android.support.v4.media.MediaMetadataCompat
 import android.support.v4.media.session.MediaControllerCompat
 import android.support.v4.media.session.PlaybackStateCompat
 import android.util.Log
-import androidx.annotation.RequiresApi
 import androidx.core.content.res.ResourcesCompat
 import androidx.media.MediaBrowserServiceCompat
 import kotlinx.coroutines.CoroutineDispatcher
@@ -23,7 +23,6 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
-@RequiresApi(Build.VERSION_CODES.LOLLIPOP)
 class AudioControl {
     private val TAG: String = AudioControl::class.java.simpleName
     private lateinit var listenerComponent: ComponentName
@@ -41,7 +40,7 @@ class AudioControl {
     ): Boolean {
         if (!NotificationListener.isEnabled(context)) {
             context.startActivity(
-                Intent("android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS").addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                Intent(Settings.ACTION_NOTIFICATION_LISTENER_SETTINGS).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
             )
             return false
         }

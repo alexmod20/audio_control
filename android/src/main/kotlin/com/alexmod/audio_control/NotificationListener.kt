@@ -6,7 +6,6 @@ import android.os.Build.VERSION_CODES
 import android.service.notification.NotificationListenerService
 import androidx.core.app.NotificationManagerCompat
 
-@TargetApi(VERSION_CODES.LOLLIPOP)
 class NotificationListener : NotificationListenerService() {
     companion object {
         fun isEnabled(context: Context): Boolean {

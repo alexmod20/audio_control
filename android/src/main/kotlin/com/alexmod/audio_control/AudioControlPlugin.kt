@@ -4,14 +4,12 @@ import android.content.Context
 import android.os.Build
 import android.util.Log
 import androidx.annotation.NonNull
-import androidx.annotation.RequiresApi
 import io.flutter.embedding.engine.plugins.FlutterPlugin
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler
 import io.flutter.plugin.common.MethodChannel.Result
 
-@RequiresApi(Build.VERSION_CODES.LOLLIPOP)
 class AudioControlPlugin : FlutterPlugin, MethodCallHandler {
     private lateinit var channel: MethodChannel
     private lateinit var mContext: Context

@@ -14,7 +14,6 @@ import androidx.annotation.RequiresApi
 
 @RequiresApi(Build.VERSION_CODES.KITKAT_WATCH)
 object MediaAppDetailsUtils {
-    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
     @JvmStatic
     fun getMediaAppsFromControllers(
         controllers: List<MediaController?>?,
