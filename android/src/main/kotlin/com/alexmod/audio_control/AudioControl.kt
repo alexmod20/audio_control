@@ -90,7 +90,8 @@ class AudioControl {
     }
 
     fun getActiveSession(context: Context): List<HashMap<String, Any?>> {
-        val list = mMediaSessionManager!!.getActiveSessions(listenerComponent)
+        val sessionManager = mMediaSessionManager ?: return emptyList()
+        val list = sessionManager.getActiveSessions(listenerComponent)
         activeMediaAppDetailsList = MediaAppDetailsUtils.getMediaAppsFromControllers(
             list, context.packageManager
         )
