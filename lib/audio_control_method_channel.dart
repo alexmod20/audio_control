@@ -55,7 +55,10 @@ class MethodChannelAudioControl extends AudioControlPlatform {
   setStateChangeListener(
       StreamController<MediaInfo> stateChangeStreamController) {
     _stateChangeStreamController = stateChangeStreamController;
-    _stateChangeStreamController?.add(_cachedMediaInfoValue!);
+    final cached = _cachedMediaInfoValue;
+    if (cached != null) {
+      _stateChangeStreamController?.add(cached);
+    }
   }
 
   @override
@@ -125,5 +128,14 @@ class MethodChannelAudioControl extends AudioControlPlatform {
   Future<bool> sendCustomAction(String action) async {
     return await methodChannel.invokeMethod<dynamic>(
         'sendCustomAction', action);
+  }
+
+  @override
+  void dispose() {
+    methodChannel.setMethodCallHandler(null);
+    _stateChangeStreamController = null;
+    _sessionChangedStreamController = null;
+    _sessionDestroyedStreamController = null;
+    _cachedMediaInfoValue = null;
   }
 }
