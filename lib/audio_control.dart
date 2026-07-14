@@ -57,10 +57,6 @@ class AudioControl {
     return result;
   }
 
-  // Future<bool?> isInit() {
-  //   return AudioControlPlatform.instance.isInit();
-  // }
-
   Future<List<MediaAppDetails>> getMediaApps() {
     return AudioControlPlatform.instance.getMediaApps();
   }
