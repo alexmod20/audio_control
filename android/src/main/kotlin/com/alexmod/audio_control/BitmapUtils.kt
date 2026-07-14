@@ -8,23 +8,25 @@ import java.io.ByteArrayOutputStream
 
 class BitmapUtils {
     companion object {
+        private const val MAX_DIMENSION = 512
+
         fun convertDrawable(
             drawable: Drawable
         ): ByteArray {
-            val bitmap: Bitmap
             if (drawable is BitmapDrawable) {
-                bitmap = drawable.bitmap
-            } else {
-                bitmap = Bitmap.createBitmap(
-                    drawable.intrinsicWidth,
-                    drawable.intrinsicHeight,
-                    Bitmap.Config.ARGB_8888
-                )
-                val canvas = Canvas(bitmap)
-                drawable.setBounds(0, 0, canvas.width, canvas.height)
-                drawable.draw(canvas)
+                return bitmapToByteArray(drawable.bitmap)
             }
-            return bitmapToByteArray(bitmap)
+
+            val width = drawable.intrinsicWidth.coerceIn(1, MAX_DIMENSION)
+            val height = drawable.intrinsicHeight.coerceIn(1, MAX_DIMENSION)
+            val bitmap = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888)
+            val canvas = Canvas(bitmap)
+            drawable.setBounds(0, 0, width, height)
+            drawable.draw(canvas)
+
+            val bytes = bitmapToByteArray(bitmap)
+            bitmap.recycle()
+            return bytes
         }
 
         fun bitmapToByteArray(bitmap: Bitmap) : ByteArray{

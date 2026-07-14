@@ -53,6 +53,11 @@ class MockAudioControlPlatform
   Future<bool> sendCustomAction(String action) => Future.value(true);
 }
 
+class _NullInitializePlatform extends MockAudioControlPlatform {
+  @override
+  Future<bool?> initialize() => Future.value(null);
+}
+
 void main() {
   final AudioControlPlatform initialPlatform = AudioControlPlatform.instance;
 
@@ -66,5 +71,15 @@ void main() {
     AudioControlPlatform.instance = fakePlatform;
 
     expect(await audioControlPlugin.getPlatformVersion(), '42');
+  });
+
+  test('isInit stays false, and does not crash, when initialize() resolves to null',
+      () async {
+    AudioControl audioControlPlugin = AudioControl();
+    AudioControlPlatform.instance = _NullInitializePlatform();
+
+    await audioControlPlugin.initialize();
+
+    expect(audioControlPlugin.isInit, false);
   });
 }

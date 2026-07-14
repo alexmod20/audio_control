@@ -1,6 +1,7 @@
 package com.alexmod.audio_control
 
 import android.graphics.Bitmap
+import android.graphics.BitmapFactory
 import android.graphics.drawable.BitmapDrawable
 import android.graphics.drawable.ShapeDrawable
 import android.graphics.drawable.shapes.OvalShape
@@ -47,5 +48,19 @@ class BitmapUtilsTest {
         val bytes = BitmapUtils.convertDrawable(drawable)
 
         assertTrue(bytes.isNotEmpty())
+    }
+
+    @Test
+    fun `convertDrawable caps oversized non-bitmap drawables to the maximum dimension`() {
+        val drawable = ShapeDrawable(OvalShape())
+        drawable.intrinsicWidth = 4096
+        drawable.intrinsicHeight = 4096
+        drawable.setBounds(0, 0, 4096, 4096)
+
+        val bytes = BitmapUtils.convertDrawable(drawable)
+        val decoded = BitmapFactory.decodeByteArray(bytes, 0, bytes.size)
+
+        assertTrue(decoded.width <= 512)
+        assertTrue(decoded.height <= 512)
     }
 }

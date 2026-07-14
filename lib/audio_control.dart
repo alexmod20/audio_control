@@ -30,8 +30,8 @@ class AudioControl {
   static final AudioControl _instance = AudioControl();
   static AudioControl get instance => _instance;
 
-  bool? _isInit = false;
-  bool get isInit => _isInit!;
+  bool _isInit = false;
+  bool get isInit => _isInit;
 
   void setSessionDestroyedListener(StreamController streamController) {
     AudioControlPlatform.instance.setSessionDestroyedListener(streamController);
@@ -52,13 +52,10 @@ class AudioControl {
   }
 
   Future<bool?> initialize() async {
-    _isInit = await AudioControlPlatform.instance.initialize();
-    return _isInit;
+    final result = await AudioControlPlatform.instance.initialize();
+    _isInit = result ?? false;
+    return result;
   }
-
-  // Future<bool?> isInit() {
-  //   return AudioControlPlatform.instance.isInit();
-  // }
 
   Future<List<MediaAppDetails>> getMediaApps() {
     return AudioControlPlatform.instance.getMediaApps();

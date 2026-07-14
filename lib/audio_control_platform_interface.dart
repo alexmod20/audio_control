@@ -66,7 +66,7 @@ abstract class AudioControlPlatform extends PlatformInterface {
   }
 
   Future<List<MediaAppDetails>> getActiveSession() {
-    throw UnimplementedError('initialize() has not been implemented.');
+    throw UnimplementedError('getActiveSession() has not been implemented.');
   }
 
   Future<bool> controlMediaApp(String packageName) {
@@ -78,10 +78,10 @@ abstract class AudioControlPlatform extends PlatformInterface {
   }
 
   Future<bool> sendAction(int action, int? seek) {
-    throw UnimplementedError('getMediaInfo() has not been implemented.');
+    throw UnimplementedError('sendAction() has not been implemented.');
   }
 
   Future<bool> sendCustomAction(String action) {
-    throw UnimplementedError('getMediaInfo() has not been implemented.');
+    throw UnimplementedError('sendCustomAction() has not been implemented.');
   }
 }

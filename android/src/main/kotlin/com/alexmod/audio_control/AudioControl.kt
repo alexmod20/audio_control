@@ -26,8 +26,9 @@ import kotlinx.coroutines.withContext
 class AudioControl {
     private val TAG: String = AudioControl::class.java.simpleName
     private lateinit var listenerComponent: ComponentName
-    private var mediaAppDetailsList = listOf<MediaAppDetails>()
-    private var activeMediaAppDetailsList = listOf<MediaAppDetails>()
+    @Volatile private var mediaAppDetailsList = listOf<MediaAppDetails>()
+    @Volatile private var activeMediaAppDetailsList = listOf<MediaAppDetails>()
+    private var sessionsChangedListener: OnActiveSessionsChangedListener? = null
     private var mediaBrowser: MediaBrowserCompat? = null
     private var mediaController: MediaControllerCompat? = null
     private lateinit var mCallback: MediaControllerCompat.Callback
@@ -49,16 +50,16 @@ class AudioControl {
             context.getSystemService(MEDIA_SESSION_SERVICE) as MediaSessionManager?
         listenerComponent = ComponentName(context, NotificationListener::class.java)
 
-        val sessionsChangedListener =
+        sessionsChangedListener =
             OnActiveSessionsChangedListener { list ->
                 Log.d(TAG, "onActiveSessionsChanged: session is changed")
                 activeMediaAppDetailsList = MediaAppDetailsUtils.getMediaAppsFromControllers(
-                    list, context!!.packageManager
+                    list, context.packageManager
                 )
                 onActiveSessionsChanged(activeMediaAppDetailsList.map { mediaAppDetails -> mediaAppDetails.toHasMap() })
             }
         mMediaSessionManager!!.addOnActiveSessionsChangedListener(
-            sessionsChangedListener, listenerComponent
+            sessionsChangedListener!!, listenerComponent
         )
         return true
     }
@@ -123,6 +124,9 @@ class AudioControl {
         val mMediaAppDetails = activeMediaAppDetailsList.find {
                 mediaAppDetails -> mediaAppDetails.packageName == packageName }
         val token = mMediaAppDetails?.sessionToken ?: return false
+        if (::mCallback.isInitialized) {
+            mediaController?.unregisterCallback(mCallback)
+        }
         return try {
             mediaController = MediaControllerCompat(context, token)
             mediaController?.let {
@@ -159,7 +163,8 @@ class AudioControl {
         object : MediaControllerCompat.Callback() {
             override fun onPlaybackStateChanged(playbackState: PlaybackStateCompat) {
                 Log.d(TAG, "onPlaybackStateChanged: PlaybackState is changed")
-                val mediaMetadata: MediaMetadataCompat = mediaController!!.metadata
+                val controller = mediaController ?: return
+                val mediaMetadata: MediaMetadataCompat = controller.metadata ?: return
                 val customAction = playbackState.customActions
                 val mediaInfo = MediaInfo(
                     title = mediaMetadata.getString(MediaMetadataCompat.METADATA_KEY_TITLE),
@@ -220,6 +225,11 @@ class AudioControl {
         if (mMediaSessionManager == null) {
             return
         }
+
+        sessionsChangedListener?.let {
+            mMediaSessionManager?.removeOnActiveSessionsChangedListener(it)
+        }
+        sessionsChangedListener = null
 
         mediaController?.let {
             it.unregisterCallback(mCallback)
