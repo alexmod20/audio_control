@@ -124,6 +124,9 @@ class AudioControl {
         val mMediaAppDetails = activeMediaAppDetailsList.find {
                 mediaAppDetails -> mediaAppDetails.packageName == packageName }
         val token = mMediaAppDetails?.sessionToken ?: return false
+        if (::mCallback.isInitialized) {
+            mediaController?.unregisterCallback(mCallback)
+        }
         return try {
             mediaController = MediaControllerCompat(context, token)
             mediaController?.let {
