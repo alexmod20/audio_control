@@ -26,8 +26,8 @@ import kotlinx.coroutines.withContext
 class AudioControl {
     private val TAG: String = AudioControl::class.java.simpleName
     private lateinit var listenerComponent: ComponentName
-    private var mediaAppDetailsList = listOf<MediaAppDetails>()
-    private var activeMediaAppDetailsList = listOf<MediaAppDetails>()
+    @Volatile private var mediaAppDetailsList = listOf<MediaAppDetails>()
+    @Volatile private var activeMediaAppDetailsList = listOf<MediaAppDetails>()
     private var sessionsChangedListener: OnActiveSessionsChangedListener? = null
     private var mediaBrowser: MediaBrowserCompat? = null
     private var mediaController: MediaControllerCompat? = null
@@ -163,7 +163,8 @@ class AudioControl {
         object : MediaControllerCompat.Callback() {
             override fun onPlaybackStateChanged(playbackState: PlaybackStateCompat) {
                 Log.d(TAG, "onPlaybackStateChanged: PlaybackState is changed")
-                val mediaMetadata: MediaMetadataCompat = mediaController!!.metadata
+                val controller = mediaController ?: return
+                val mediaMetadata: MediaMetadataCompat = controller.metadata ?: return
                 val customAction = playbackState.customActions
                 val mediaInfo = MediaInfo(
                     title = mediaMetadata.getString(MediaMetadataCompat.METADATA_KEY_TITLE),
