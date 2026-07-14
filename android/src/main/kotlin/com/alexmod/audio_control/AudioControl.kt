@@ -28,6 +28,7 @@ class AudioControl {
     private lateinit var listenerComponent: ComponentName
     private var mediaAppDetailsList = listOf<MediaAppDetails>()
     private var activeMediaAppDetailsList = listOf<MediaAppDetails>()
+    private var sessionsChangedListener: OnActiveSessionsChangedListener? = null
     private var mediaBrowser: MediaBrowserCompat? = null
     private var mediaController: MediaControllerCompat? = null
     private lateinit var mCallback: MediaControllerCompat.Callback
@@ -49,16 +50,16 @@ class AudioControl {
             context.getSystemService(MEDIA_SESSION_SERVICE) as MediaSessionManager?
         listenerComponent = ComponentName(context, NotificationListener::class.java)
 
-        val sessionsChangedListener =
+        sessionsChangedListener =
             OnActiveSessionsChangedListener { list ->
                 Log.d(TAG, "onActiveSessionsChanged: session is changed")
                 activeMediaAppDetailsList = MediaAppDetailsUtils.getMediaAppsFromControllers(
-                    list, context!!.packageManager
+                    list, context.packageManager
                 )
                 onActiveSessionsChanged(activeMediaAppDetailsList.map { mediaAppDetails -> mediaAppDetails.toHasMap() })
             }
         mMediaSessionManager!!.addOnActiveSessionsChangedListener(
-            sessionsChangedListener, listenerComponent
+            sessionsChangedListener!!, listenerComponent
         )
         return true
     }
@@ -165,11 +166,8 @@ class AudioControl {
                     title = mediaMetadata.getString(MediaMetadataCompat.METADATA_KEY_TITLE),
                     artist = mediaMetadata.getString(MediaMetadataCompat.METADATA_KEY_ARTIST),
                     album = mediaMetadata.getString(MediaMetadataCompat.METADATA_KEY_ALBUM),
-                    image = BitmapUtils.bitmapToByteArray(
-                        mediaMetadata.getBitmap(
-                            MediaMetadataCompat.METADATA_KEY_ALBUM_ART
-                        )
-                    ),
+                    image = mediaMetadata.getBitmap(MediaMetadataCompat.METADATA_KEY_ALBUM_ART)
+                        ?.let { BitmapUtils.bitmapToByteArray(it) },
                     state = playbackState.state,
                     customAction = customAction.map { ca ->
                         val drawable = ResourcesCompat.getDrawable(resources, ca.icon, null)
@@ -223,6 +221,11 @@ class AudioControl {
         if (mMediaSessionManager == null) {
             return
         }
+
+        sessionsChangedListener?.let {
+            mMediaSessionManager?.removeOnActiveSessionsChangedListener(it)
+        }
+        sessionsChangedListener = null
 
         mediaController?.let {
             it.unregisterCallback(mCallback)
