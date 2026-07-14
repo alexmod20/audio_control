@@ -35,22 +35,31 @@ class AudioControlPlugin : FlutterPlugin, MethodCallHandler {
                 result.success(mediaApps)
             }
             "controlMediaApp" -> {
-                result.success(audioControl.setupMediaController(
-                    mContext,
-                    call.arguments as String,
-                    { mediaInfo -> channel.invokeMethod("stateChanged", mediaInfo.toHasMap()); },
-                    { channel.invokeMethod("sessionDestroyed", null); }
-                ))
+                val packageName = call.arguments as? String
+                if (packageName == null) {
+                    result.error("INVALID_ARGUMENT", "controlMediaApp expects a String packageName", null)
+                } else {
+                    result.success(audioControl.setupMediaController(
+                        mContext,
+                        packageName,
+                        { mediaInfo -> channel.invokeMethod("stateChanged", mediaInfo.toHasMap()); },
+                        { channel.invokeMethod("sessionDestroyed", null); }
+                    ))
+                }
             }
             "sendAction" -> {
-                val args = call.arguments as HashMap<String, Int?>
-                val action = args["action"]
-                val seek = args["seek"]
-                if(action == null) {
-                    result.error("MISSING ARGUMENT", "Action argument missing", null)
+                val args = call.arguments as? Map<*, *>
+                if (args == null) {
+                    result.error("INVALID_ARGUMENT", "sendAction expects a Map with action/seek entries", null)
                 } else {
-                    audioControl.performAction(action, seek)
-                    result.success(true)
+                    val action = args["action"] as? Int
+                    val seek = args["seek"] as? Int
+                    if (action == null) {
+                        result.error("MISSING ARGUMENT", "Action argument missing", null)
+                    } else {
+                        audioControl.performAction(action, seek)
+                        result.success(true)
+                    }
                 }
             }
             "sendCustomAction" -> {
