@@ -102,6 +102,51 @@
   },
   "nodes": [
     {
+      "label": "audio_control_platform_interface_test.dart",
+      "file_type": "code",
+      "source_file": "test/audio_control_platform_interface_test.dart",
+      "source_location": null,
+      "id": "test_audio_control_platform_interface_test_dart",
+      "community": 1,
+      "norm_label": "audio_control_platform_interface_test.dart"
+    },
+    {
+      "label": "_BareAudioControlPlatform",
+      "file_type": "code",
+      "source_file": "test/audio_control_platform_interface_test.dart",
+      "source_location": null,
+      "id": "users_alessandromarengoni_documents_myprojects_audio_control_test_audio_control_platform_interface_test_dart_bareaudiocontrolplatform",
+      "community": 1,
+      "norm_label": "_bareaudiocontrolplatform"
+    },
+    {
+      "label": "main",
+      "file_type": "code",
+      "source_file": "test/audio_control_platform_interface_test.dart",
+      "source_location": null,
+      "id": "users_alessandromarengoni_documents_myprojects_audio_control_test_audio_control_platform_interface_test_dart_main",
+      "community": 1,
+      "norm_label": "main"
+    },
+    {
+      "label": "package:flutter_test/flutter_test.dart",
+      "file_type": "code",
+      "source_file": "example/test/widget_test.dart",
+      "source_location": null,
+      "id": "package_flutter_test_flutter_test_dart",
+      "community": 1,
+      "norm_label": "package:flutter_test/flutter_test.dart"
+    },
+    {
+      "label": "package:audio_control/audio_control_platform_interface.dart",
+      "file_type": "code",
+      "source_file": "test/audio_control_test.dart",
+      "source_location": null,
+      "id": "package_audio_control_audio_control_platform_interface_dart",
+      "community": 1,
+      "norm_label": "package:audio_control/audio_control_platform_interface.dart"
+    },
+    {
       "label": "audio_control_method_channel_test.dart",
       "file_type": "code",
       "source_file": "test/audio_control_method_channel_test.dart",
@@ -120,22 +165,31 @@
       "norm_label": "main"
     },
     {
+      "label": "simulateNativeCall",
+      "file_type": "code",
+      "source_file": "test/audio_control_method_channel_test.dart",
+      "source_location": null,
+      "id": "users_alessandromarengoni_documents_myprojects_audio_control_test_audio_control_method_channel_test_dart_simulatenativecall",
+      "community": 1,
+      "norm_label": "simulatenativecall"
+    },
+    {
+      "label": "dart:async",
+      "file_type": "code",
+      "source_file": "lib/audio_control_method_channel.dart",
+      "source_location": null,
+      "id": "dart_async",
+      "community": 8,
+      "norm_label": "dart:async"
+    },
+    {
       "label": "package:flutter/services.dart",
       "file_type": "code",
       "source_file": "lib/audio_control_method_channel.dart",
       "source_location": null,
       "id": "package_flutter_services_dart",
-      "community": 1,
+      "community": 5,
       "norm_label": "package:flutter/services.dart"
-    },
-    {
-      "label": "package:flutter_test/flutter_test.dart",
-      "file_type": "code",
-      "source_file": "example/test/widget_test.dart",
-      "source_location": null,
-      "id": "package_flutter_test_flutter_test_dart",
-      "community": 1,
-      "norm_label": "package:flutter_test/flutter_test.dart"
     },
     {
       "label": "package:audio_control/audio_control_method_channel.dart",
@@ -147,12 +201,30 @@
       "norm_label": "package:audio_control/audio_control_method_channel.dart"
     },
     {
+      "label": "package:audio_control/media_info.dart",
+      "file_type": "code",
+      "source_file": "lib/audio_control_platform_interface.dart",
+      "source_location": null,
+      "id": "package_audio_control_media_info_dart",
+      "community": 1,
+      "norm_label": "package:audio_control/media_info.dart"
+    },
+    {
+      "label": "package:audio_control/media_app_details.dart",
+      "file_type": "code",
+      "source_file": "lib/audio_control_platform_interface.dart",
+      "source_location": null,
+      "id": "package_audio_control_media_app_details_dart",
+      "community": 1,
+      "norm_label": "package:audio_control/media_app_details.dart"
+    },
+    {
       "label": "audio_control_test.dart",
       "file_type": "code",
       "source_file": "test/audio_control_test.dart",
       "source_location": null,
       "id": "test_audio_control_test_dart",
-      "community": 4,
+      "community": 1,
       "norm_label": "audio_control_test.dart"
     },
     {
@@ -161,8 +233,17 @@
       "source_file": "test/audio_control_test.dart",
       "source_location": null,
       "id": "users_alessandromarengoni_documents_myprojects_audio_control_test_audio_control_test_dart_mockaudiocontrolplatform",
-      "community": 4,
+      "community": 1,
       "norm_label": "mockaudiocontrolplatform"
+    },
+    {
+      "label": "_NullInitializePlatform",
+      "file_type": "code",
+      "source_file": "test/audio_control_test.dart",
+      "source_location": null,
+      "id": "users_alessandromarengoni_documents_myprojects_audio_control_test_audio_control_test_dart_nullinitializeplatform",
+      "community": 1,
+      "norm_label": "_nullinitializeplatform"
     },
     {
       "label": "dispose",
@@ -170,7 +251,7 @@
       "source_file": "test/audio_control_test.dart",
       "source_location": null,
       "id": "users_alessandromarengoni_documents_myprojects_audio_control_test_audio_control_test_dart_dispose",
-      "community": 4,
+      "community": 1,
       "norm_label": "dispose"
     },
     {
@@ -179,7 +260,7 @@
       "source_file": "test/audio_control_test.dart",
       "source_location": null,
       "id": "users_alessandromarengoni_documents_myprojects_audio_control_test_audio_control_test_dart_setsessiondestroyedlistener",
-      "community": 4,
+      "community": 1,
       "norm_label": "setsessiondestroyedlistener"
     },
     {
@@ -188,7 +269,7 @@
       "source_file": "test/audio_control_test.dart",
       "source_location": null,
       "id": "users_alessandromarengoni_documents_myprojects_audio_control_test_audio_control_test_dart_setstatechangelistener",
-      "community": 4,
+      "community": 1,
       "norm_label": "setstatechangelistener"
     },
     {
@@ -197,7 +278,7 @@
       "source_file": "test/audio_control_test.dart",
       "source_location": null,
       "id": "users_alessandromarengoni_documents_myprojects_audio_control_test_audio_control_test_dart_setsessionchangedlistener",
-      "community": 4,
+      "community": 1,
       "norm_label": "setsessionchangedlistener"
     },
     {
@@ -206,17 +287,8 @@
       "source_file": "test/audio_control_test.dart",
       "source_location": null,
       "id": "users_alessandromarengoni_documents_myprojects_audio_control_test_audio_control_test_dart_main",
-      "community": 4,
+      "community": 1,
       "norm_label": "main"
-    },
-    {
-      "label": "dart:async",
-      "file_type": "code",
-      "source_file": "lib/audio_control_method_channel.dart",
-      "source_location": null,
-      "id": "dart_async",
-      "community": 9,
-      "norm_label": "dart:async"
     },
     {
       "label": "package:audio_control/audio_control.dart",
@@ -224,35 +296,8 @@
       "source_file": "example/lib/dashboard_page.dart",
       "source_location": null,
       "id": "package_audio_control_audio_control_dart",
-      "community": 1,
+      "community": 5,
       "norm_label": "package:audio_control/audio_control.dart"
-    },
-    {
-      "label": "package:audio_control/audio_control_platform_interface.dart",
-      "file_type": "code",
-      "source_file": "test/audio_control_test.dart",
-      "source_location": null,
-      "id": "package_audio_control_audio_control_platform_interface_dart",
-      "community": 4,
-      "norm_label": "package:audio_control/audio_control_platform_interface.dart"
-    },
-    {
-      "label": "package:audio_control/media_app_details.dart",
-      "file_type": "code",
-      "source_file": "lib/audio_control_platform_interface.dart",
-      "source_location": null,
-      "id": "package_audio_control_media_app_details_dart",
-      "community": 4,
-      "norm_label": "package:audio_control/media_app_details.dart"
-    },
-    {
-      "label": "package:audio_control/media_info.dart",
-      "file_type": "code",
-      "source_file": "lib/audio_control_platform_interface.dart",
-      "source_location": null,
-      "id": "package_audio_control_media_info_dart",
-      "community": 4,
-      "norm_label": "package:audio_control/media_info.dart"
     },
     {
       "label": "package:plugin_platform_interface/plugin_platform_interface.dart",
@@ -260,7 +305,7 @@
       "source_file": "lib/audio_control_platform_interface.dart",
       "source_location": null,
       "id": "package_plugin_platform_interface_plugin_platform_interface_dart",
-      "community": 4,
+      "community": 1,
       "norm_label": "package:plugin_platform_interface/plugin_platform_interface.dart"
     },
     {
@@ -269,7 +314,7 @@
       "source_file": "example/test/widget_test.dart",
       "source_location": null,
       "id": "example_test_widget_test_dart",
-      "community": 1,
+      "community": 5,
       "norm_label": "widget_test.dart"
     },
     {
@@ -278,7 +323,7 @@
       "source_file": "example/test/widget_test.dart",
       "source_location": null,
       "id": "users_alessandromarengoni_documents_myprojects_audio_control_example_test_widget_test_dart_main",
-      "community": 1,
+      "community": 5,
       "norm_label": "main"
     },
     {
@@ -287,7 +332,7 @@
       "source_file": "example/test/widget_test.dart",
       "source_location": null,
       "id": "package_audio_control_example_main_dart",
-      "community": 1,
+      "community": 5,
       "norm_label": "package:audio_control_example/main.dart"
     },
     {
@@ -296,7 +341,7 @@
       "source_file": "example/android/build.gradle.kts",
       "source_location": "L1",
       "id": "example_android_build_gradle_kts",
-      "community": 39,
+      "community": 42,
       "norm_label": "build.gradle.kts"
     },
     {
@@ -305,7 +350,7 @@
       "source_file": "example/android/settings.gradle.kts",
       "source_location": "L1",
       "id": "example_android_settings_gradle_kts",
-      "community": 40,
+      "community": 43,
       "norm_label": "settings.gradle.kts"
     },
     {
@@ -314,7 +359,7 @@
       "source_file": "example/android/app/build.gradle.kts",
       "source_location": "L1",
       "id": "example_android_app_build_gradle_kts",
-      "community": 41,
+      "community": 44,
       "norm_label": "build.gradle.kts"
     },
     {
@@ -350,7 +395,7 @@
       "source_file": "example/android/app/src/main/kotlin/com/alexmod/audio_control_example/MainActivity.kt",
       "source_location": "L1",
       "id": "example_android_app_src_main_kotlin_com_alexmod_audio_control_example_mainactivity_kt",
-      "community": 33,
+      "community": 36,
       "norm_label": "mainactivity.kt"
     },
     {
@@ -359,7 +404,7 @@
       "source_file": "example/android/app/src/main/kotlin/com/alexmod/audio_control_example/MainActivity.kt",
       "source_location": "L5",
       "id": "audio_control_example_mainactivity_mainactivity",
-      "community": 33,
+      "community": 36,
       "norm_label": "mainactivity"
     },
     {
@@ -557,7 +602,7 @@
       "source_file": "example/lib/dashboard_page.dart",
       "source_location": null,
       "id": "package_flutter_material_dart",
-      "community": 1,
+      "community": 5,
       "norm_label": "package:flutter/material.dart"
     },
     {
@@ -575,7 +620,7 @@
       "source_file": "example/lib/main.dart",
       "source_location": null,
       "id": "example_lib_main_dart",
-      "community": 1,
+      "community": 5,
       "norm_label": "main.dart"
     },
     {
@@ -584,7 +629,7 @@
       "source_file": "example/lib/main.dart",
       "source_location": null,
       "id": "users_alessandromarengoni_documents_myprojects_audio_control_example_lib_main_dart_myapp",
-      "community": 1,
+      "community": 5,
       "norm_label": "myapp"
     },
     {
@@ -593,7 +638,7 @@
       "source_file": "example/lib/main.dart",
       "source_location": null,
       "id": "users_alessandromarengoni_documents_myprojects_audio_control_example_lib_main_dart_myappstate",
-      "community": 1,
+      "community": 5,
       "norm_label": "_myappstate"
     },
     {
@@ -602,7 +647,7 @@
       "source_file": "example/lib/main.dart",
       "source_location": null,
       "id": "users_alessandromarengoni_documents_myprojects_audio_control_example_lib_main_dart_main",
-      "community": 1,
+      "community": 5,
       "norm_label": "main"
     },
     {
@@ -611,7 +656,7 @@
       "source_file": "example/lib/main.dart",
       "source_location": null,
       "id": "users_alessandromarengoni_documents_myprojects_audio_control_example_lib_main_dart_initstate",
-      "community": 1,
+      "community": 5,
       "norm_label": "initstate"
     },
     {
@@ -620,7 +665,7 @@
       "source_file": "example/lib/main.dart",
       "source_location": null,
       "id": "users_alessandromarengoni_documents_myprojects_audio_control_example_lib_main_dart_build",
-      "community": 1,
+      "community": 5,
       "norm_label": "build"
     },
     {
@@ -629,7 +674,7 @@
       "source_file": "example/lib/main.dart",
       "source_location": null,
       "id": "users_alessandromarengoni_documents_myprojects_audio_control_example_lib_main_dart_materialapp",
-      "community": 1,
+      "community": 5,
       "norm_label": "materialapp"
     },
     {
@@ -638,7 +683,7 @@
       "source_file": "example/lib/main.dart",
       "source_location": null,
       "id": "package_audio_control_example_dashboard_page_dart",
-      "community": 1,
+      "community": 5,
       "norm_label": "package:audio_control_example/dashboard_page.dart"
     },
     {
@@ -647,7 +692,7 @@
       "source_file": "example/lib/app_card.dart",
       "source_location": null,
       "id": "example_lib_app_card_dart",
-      "community": 1,
+      "community": 5,
       "norm_label": "app_card.dart"
     },
     {
@@ -656,7 +701,7 @@
       "source_file": "example/lib/app_card.dart",
       "source_location": null,
       "id": "users_alessandromarengoni_documents_myprojects_audio_control_example_lib_app_card_dart_appcard",
-      "community": 1,
+      "community": 5,
       "norm_label": "appcard"
     },
     {
@@ -665,7 +710,7 @@
       "source_file": "example/lib/app_card.dart",
       "source_location": null,
       "id": "users_alessandromarengoni_documents_myprojects_audio_control_example_lib_app_card_dart_build",
-      "community": 1,
+      "community": 5,
       "norm_label": "build"
     },
     {
@@ -674,7 +719,7 @@
       "source_file": "example/lib/app_card.dart",
       "source_location": null,
       "id": "users_alessandromarengoni_documents_myprojects_audio_control_example_lib_app_card_dart_card",
-      "community": 1,
+      "community": 5,
       "norm_label": "card"
     },
     {
@@ -683,7 +728,7 @@
       "source_file": "example/lib/app_card.dart",
       "source_location": null,
       "id": "users_alessandromarengoni_documents_myprojects_audio_control_example_lib_app_card_dart_sizedbox",
-      "community": 1,
+      "community": 5,
       "norm_label": "sizedbox"
     },
     {
@@ -836,7 +881,7 @@
       "source_file": "android/build.gradle",
       "source_location": "L1",
       "id": "android_build_gradle",
-      "community": 42,
+      "community": 45,
       "norm_label": "build.gradle"
     },
     {
@@ -845,8 +890,62 @@
       "source_file": "android/settings.gradle",
       "source_location": "L1",
       "id": "android_settings_gradle",
-      "community": 43,
+      "community": 46,
       "norm_label": "settings.gradle"
+    },
+    {
+      "label": "AudioControlSessionListenerLifecycleTest.kt",
+      "file_type": "code",
+      "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlSessionListenerLifecycleTest.kt",
+      "source_location": "L1",
+      "id": "android_src_test_kotlin_com_alexmod_audio_control_audiocontrolsessionlistenerlifecycletest_kt",
+      "community": 25,
+      "norm_label": "audiocontrolsessionlistenerlifecycletest.kt"
+    },
+    {
+      "label": "AudioControlSessionListenerLifecycleTest",
+      "file_type": "code",
+      "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlSessionListenerLifecycleTest.kt",
+      "source_location": "L9",
+      "id": "audio_control_audiocontrolsessionlistenerlifecycletest_audiocontrolsessionlistenerlifecycletest",
+      "community": 25,
+      "norm_label": "audiocontrolsessionlistenerlifecycletest"
+    },
+    {
+      "label": ".`onStop removes the active-sessions-changed listener that init registered`()",
+      "file_type": "code",
+      "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlSessionListenerLifecycleTest.kt",
+      "source_location": "L11",
+      "id": "audio_control_audiocontrolsessionlistenerlifecycletest_audiocontrolsessionlistenerlifecycletest_onstop_removes_the_active_sessions_changed_listener_that_init_registered",
+      "community": 25,
+      "norm_label": ".`onstop removes the active-sessions-changed listener that init registered`()"
+    },
+    {
+      "label": "AudioControlSetupMediaControllerReplacesPreviousCallbackTest.kt",
+      "file_type": "code",
+      "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlSetupMediaControllerReplacesPreviousCallbackTest.kt",
+      "source_location": "L1",
+      "id": "android_src_test_kotlin_com_alexmod_audio_control_audiocontrolsetupmediacontrollerreplacespreviouscallbacktest_kt",
+      "community": 26,
+      "norm_label": "audiocontrolsetupmediacontrollerreplacespreviouscallbacktest.kt"
+    },
+    {
+      "label": "AudioControlSetupMediaControllerReplacesPreviousCallbackTest",
+      "file_type": "code",
+      "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlSetupMediaControllerReplacesPreviousCallbackTest.kt",
+      "source_location": "L13",
+      "id": "audio_control_audiocontrolsetupmediacontrollerreplacespreviouscallbacktest_audiocontrolsetupmediacontrollerreplacespreviouscallbacktest",
+      "community": 26,
+      "norm_label": "audiocontrolsetupmediacontrollerreplacespreviouscallbacktest"
+    },
+    {
+      "label": ".`setupMediaController unregisters the previous controller's callback before replacing it`()",
+      "file_type": "code",
+      "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlSetupMediaControllerReplacesPreviousCallbackTest.kt",
+      "source_location": "L15",
+      "id": "audio_control_audiocontrolsetupmediacontrollerreplacespreviouscallbacktest_audiocontrolsetupmediacontrollerreplacespreviouscallbacktest_setupmediacontroller_unregisters_the_previous_controller_s_callback_before_replacing_it",
+      "community": 26,
+      "norm_label": ".`setupmediacontroller unregisters the previous controller's callback before replacing it`()"
     },
     {
       "label": "AudioControlGetActiveSessionTest.kt",
@@ -854,7 +953,7 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlGetActiveSessionTest.kt",
       "source_location": "L1",
       "id": "android_src_test_kotlin_com_alexmod_audio_control_audiocontrolgetactivesessiontest_kt",
-      "community": 25,
+      "community": 27,
       "norm_label": "audiocontrolgetactivesessiontest.kt"
     },
     {
@@ -863,7 +962,7 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlGetActiveSessionTest.kt",
       "source_location": "L8",
       "id": "audio_control_audiocontrolgetactivesessiontest_audiocontrolgetactivesessiontest",
-      "community": 25,
+      "community": 27,
       "norm_label": "audiocontrolgetactivesessiontest"
     },
     {
@@ -872,7 +971,7 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlGetActiveSessionTest.kt",
       "source_location": "L10",
       "id": "audio_control_audiocontrolgetactivesessiontest_audiocontrolgetactivesessiontest_getactivesession_before_initialize_returns_empty_list_instead_of_throwing",
-      "community": 25,
+      "community": 27,
       "norm_label": ".`getactivesession before initialize returns empty list instead of throwing`()"
     },
     {
@@ -881,7 +980,7 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlGetMediaAppsTest.kt",
       "source_location": "L1",
       "id": "android_src_test_kotlin_com_alexmod_audio_control_audiocontrolgetmediaappstest_kt",
-      "community": 12,
+      "community": 13,
       "norm_label": "audiocontrolgetmediaappstest.kt"
     },
     {
@@ -890,7 +989,7 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlGetMediaAppsTest.kt",
       "source_location": "L19",
       "id": "audio_control_audiocontrolgetmediaappstest_audiocontrolgetmediaappstest",
-      "community": 12,
+      "community": 13,
       "norm_label": "audiocontrolgetmediaappstest"
     },
     {
@@ -899,7 +998,7 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlGetMediaAppsTest.kt",
       "source_location": "L22",
       "id": "audio_control_audiocontrolgetmediaappstest_audiocontrolgetmediaappstest_setup",
-      "community": 12,
+      "community": 13,
       "norm_label": ".setup()"
     },
     {
@@ -908,7 +1007,7 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlGetMediaAppsTest.kt",
       "source_location": "L27",
       "id": "audio_control_audiocontrolgetmediaappstest_audiocontrolgetmediaappstest_teardown",
-      "community": 12,
+      "community": 13,
       "norm_label": ".teardown()"
     },
     {
@@ -917,7 +1016,7 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlGetMediaAppsTest.kt",
       "source_location": "L32",
       "id": "audio_control_audiocontrolgetmediaappstest_audiocontrolgetmediaappstest_getmediaappsasync_completes_with_an_empty_list_when_no_media_apps_are_installed",
-      "community": 12,
+      "community": 13,
       "norm_label": ".`getmediaappsasync completes with an empty list when no media apps are installed`()"
     },
     {
@@ -926,7 +1025,7 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlGetMediaAppsTest.kt",
       "source_location": "L54",
       "id": "audio_control_audiocontrolgetmediaappstest_audiocontrolgetmediaappstest_getmediaappsasync_completes_with_an_empty_list_when_queryintentservices_throws",
-      "community": 12,
+      "community": 13,
       "norm_label": ".`getmediaappsasync completes with an empty list when queryintentservices throws`()"
     },
     {
@@ -935,7 +1034,7 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlSetupMediaControllerTest.kt",
       "source_location": "L1",
       "id": "android_src_test_kotlin_com_alexmod_audio_control_audiocontrolsetupmediacontrollertest_kt",
-      "community": 26,
+      "community": 28,
       "norm_label": "audiocontrolsetupmediacontrollertest.kt"
     },
     {
@@ -944,7 +1043,7 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlSetupMediaControllerTest.kt",
       "source_location": "L12",
       "id": "audio_control_audiocontrolsetupmediacontrollertest_audiocontrolsetupmediacontrollertest",
-      "community": 26,
+      "community": 28,
       "norm_label": "audiocontrolsetupmediacontrollertest"
     },
     {
@@ -953,8 +1052,35 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlSetupMediaControllerTest.kt",
       "source_location": "L14",
       "id": "audio_control_audiocontrolsetupmediacontrollertest_audiocontrolsetupmediacontrollertest_setupmediacontroller_returns_false_when_target_app_resources_cannot_be_resolved",
-      "community": 26,
+      "community": 28,
       "norm_label": ".`setupmediacontroller returns false when target app resources cannot be resolved`()"
+    },
+    {
+      "label": "AudioControlPlaybackCallbackRaceTest.kt",
+      "file_type": "code",
+      "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlPlaybackCallbackRaceTest.kt",
+      "source_location": "L1",
+      "id": "android_src_test_kotlin_com_alexmod_audio_control_audiocontrolplaybackcallbackracetest_kt",
+      "community": 29,
+      "norm_label": "audiocontrolplaybackcallbackracetest.kt"
+    },
+    {
+      "label": "AudioControlPlaybackCallbackRaceTest",
+      "file_type": "code",
+      "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlPlaybackCallbackRaceTest.kt",
+      "source_location": "L12",
+      "id": "audio_control_audiocontrolplaybackcallbackracetest_audiocontrolplaybackcallbackracetest",
+      "community": 29,
+      "norm_label": "audiocontrolplaybackcallbackracetest"
+    },
+    {
+      "label": ".`onPlaybackStateChanged does not crash when mediaController has been cleared concurrently`()",
+      "file_type": "code",
+      "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlPlaybackCallbackRaceTest.kt",
+      "source_location": "L14",
+      "id": "audio_control_audiocontrolplaybackcallbackracetest_audiocontrolplaybackcallbackracetest_onplaybackstatechanged_does_not_crash_when_mediacontroller_has_been_cleared_concurrently",
+      "community": 29,
+      "norm_label": ".`onplaybackstatechanged does not crash when mediacontroller has been cleared concurrently`()"
     },
     {
       "label": "AudioControlAlbumArtTest.kt",
@@ -962,7 +1088,7 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlAlbumArtTest.kt",
       "source_location": "L1",
       "id": "android_src_test_kotlin_com_alexmod_audio_control_audiocontrolalbumarttest_kt",
-      "community": 27,
+      "community": 30,
       "norm_label": "audiocontrolalbumarttest.kt"
     },
     {
@@ -971,7 +1097,7 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlAlbumArtTest.kt",
       "source_location": "L13",
       "id": "audio_control_audiocontrolalbumarttest_audiocontrolalbumarttest",
-      "community": 27,
+      "community": 30,
       "norm_label": "audiocontrolalbumarttest"
     },
     {
@@ -980,7 +1106,7 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlAlbumArtTest.kt",
       "source_location": "L15",
       "id": "audio_control_audiocontrolalbumarttest_audiocontrolalbumarttest_onplaybackstatechanged_does_not_crash_when_track_has_no_embedded_album_art_bitmap",
-      "community": 27,
+      "community": 30,
       "norm_label": ".`onplaybackstatechanged does not crash when track has no embedded album art bitmap`()"
     },
     {
@@ -989,7 +1115,7 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlPerformActionTest.kt",
       "source_location": "L1",
       "id": "android_src_test_kotlin_com_alexmod_audio_control_audiocontrolperformactiontest_kt",
-      "community": 14,
+      "community": 17,
       "norm_label": "audiocontrolperformactiontest.kt"
     },
     {
@@ -998,7 +1124,7 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlPerformActionTest.kt",
       "source_location": "L9",
       "id": "audio_control_audiocontrolperformactiontest_audiocontrolperformactiontest",
-      "community": 14,
+      "community": 17,
       "norm_label": "audiocontrolperformactiontest"
     },
     {
@@ -1007,7 +1133,7 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlPerformActionTest.kt",
       "source_location": "L11",
       "id": "audio_control_audiocontrolperformactiontest_audiocontrolperformactiontest_audiocontrolwithmockcontroller",
-      "community": 14,
+      "community": 17,
       "norm_label": ".audiocontrolwithmockcontroller()"
     },
     {
@@ -1016,7 +1142,7 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlPerformActionTest.kt",
       "source_location": "L24",
       "id": "audio_control_audiocontrolperformactiontest_audiocontrolperformactiontest_fast_forward_action_calls_fastforward_on_transport_controls",
-      "community": 14,
+      "community": 17,
       "norm_label": ".`fast forward action calls fastforward on transport controls`()"
     },
     {
@@ -1025,7 +1151,7 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlPerformActionTest.kt",
       "source_location": "L33",
       "id": "audio_control_audiocontrolperformactiontest_audiocontrolperformactiontest_rewind_action_calls_rewind_on_transport_controls",
-      "community": 14,
+      "community": 17,
       "norm_label": ".`rewind action calls rewind on transport controls`()"
     },
     {
@@ -1034,44 +1160,53 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/BitmapUtilsTest.kt",
       "source_location": "L1",
       "id": "android_src_test_kotlin_com_alexmod_audio_control_bitmaputilstest_kt",
-      "community": 15,
+      "community": 14,
       "norm_label": "bitmaputilstest.kt"
     },
     {
       "label": "BitmapUtilsTest",
       "file_type": "code",
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/BitmapUtilsTest.kt",
-      "source_location": "L14",
+      "source_location": "L15",
       "id": "audio_control_bitmaputilstest_bitmaputilstest",
-      "community": 15,
+      "community": 14,
       "norm_label": "bitmaputilstest"
     },
     {
       "label": ".`bitmapToByteArray produces a non-empty PNG-encoded array`()",
       "file_type": "code",
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/BitmapUtilsTest.kt",
-      "source_location": "L18",
+      "source_location": "L19",
       "id": "audio_control_bitmaputilstest_bitmaputilstest_bitmaptobytearray_produces_a_non_empty_png_encoded_array",
-      "community": 15,
+      "community": 14,
       "norm_label": ".`bitmaptobytearray produces a non-empty png-encoded array`()"
     },
     {
       "label": ".`convertDrawable handles a BitmapDrawable by reusing its bitmap`()",
       "file_type": "code",
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/BitmapUtilsTest.kt",
-      "source_location": "L29",
+      "source_location": "L30",
       "id": "audio_control_bitmaputilstest_bitmaputilstest_convertdrawable_handles_a_bitmapdrawable_by_reusing_its_bitmap",
-      "community": 15,
+      "community": 14,
       "norm_label": ".`convertdrawable handles a bitmapdrawable by reusing its bitmap`()"
     },
     {
       "label": ".`convertDrawable rasterizes a non-bitmap drawable`()",
       "file_type": "code",
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/BitmapUtilsTest.kt",
-      "source_location": "L40",
+      "source_location": "L41",
       "id": "audio_control_bitmaputilstest_bitmaputilstest_convertdrawable_rasterizes_a_non_bitmap_drawable",
-      "community": 15,
+      "community": 14,
       "norm_label": ".`convertdrawable rasterizes a non-bitmap drawable`()"
+    },
+    {
+      "label": ".`convertDrawable caps oversized non-bitmap drawables to the maximum dimension`()",
+      "file_type": "code",
+      "source_file": "android/src/test/kotlin/com/alexmod/audio_control/BitmapUtilsTest.kt",
+      "source_location": "L53",
+      "id": "audio_control_bitmaputilstest_bitmaputilstest_convertdrawable_caps_oversized_non_bitmap_drawables_to_the_maximum_dimension",
+      "community": 14,
+      "norm_label": ".`convertdrawable caps oversized non-bitmap drawables to the maximum dimension`()"
     },
     {
       "label": "MediaInfoTest.kt",
@@ -1115,7 +1250,7 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/MediaAppDetailsTest.kt",
       "source_location": "L1",
       "id": "android_src_test_kotlin_com_alexmod_audio_control_mediaappdetailstest_kt",
-      "community": 28,
+      "community": 31,
       "norm_label": "mediaappdetailstest.kt"
     },
     {
@@ -1124,7 +1259,7 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/MediaAppDetailsTest.kt",
       "source_location": "L7",
       "id": "audio_control_mediaappdetailstest_mediaappdetailstest",
-      "community": 28,
+      "community": 31,
       "norm_label": "mediaappdetailstest"
     },
     {
@@ -1133,8 +1268,53 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/MediaAppDetailsTest.kt",
       "source_location": "L9",
       "id": "audio_control_mediaappdetailstest_mediaappdetailstest_tohasmap_serializes_packagename_appname_icon_and_banner_but_not_the_session_token",
-      "community": 28,
+      "community": 31,
       "norm_label": ".`tohasmap serializes packagename, appname, icon and banner but not the session token`()"
+    },
+    {
+      "label": "AudioControlPluginArgumentValidationTest.kt",
+      "file_type": "code",
+      "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlPluginArgumentValidationTest.kt",
+      "source_location": "L1",
+      "id": "android_src_test_kotlin_com_alexmod_audio_control_audiocontrolpluginargumentvalidationtest_kt",
+      "community": 11,
+      "norm_label": "audiocontrolpluginargumentvalidationtest.kt"
+    },
+    {
+      "label": "AudioControlPluginArgumentValidationTest",
+      "file_type": "code",
+      "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlPluginArgumentValidationTest.kt",
+      "source_location": "L18",
+      "id": "audio_control_audiocontrolpluginargumentvalidationtest_audiocontrolpluginargumentvalidationtest",
+      "community": 11,
+      "norm_label": "audiocontrolpluginargumentvalidationtest"
+    },
+    {
+      "label": ".attachedPlugin()",
+      "file_type": "code",
+      "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlPluginArgumentValidationTest.kt",
+      "source_location": "L22",
+      "id": "audio_control_audiocontrolpluginargumentvalidationtest_audiocontrolpluginargumentvalidationtest_attachedplugin",
+      "community": 11,
+      "norm_label": ".attachedplugin()"
+    },
+    {
+      "label": ".`controlMediaApp with a non-String argument reports an error instead of throwing`()",
+      "file_type": "code",
+      "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlPluginArgumentValidationTest.kt",
+      "source_location": "L31",
+      "id": "audio_control_audiocontrolpluginargumentvalidationtest_audiocontrolpluginargumentvalidationtest_controlmediaapp_with_a_non_string_argument_reports_an_error_instead_of_throwing",
+      "community": 11,
+      "norm_label": ".`controlmediaapp with a non-string argument reports an error instead of throwing`()"
+    },
+    {
+      "label": ".`sendAction with a non-Map argument reports an error instead of throwing`()",
+      "file_type": "code",
+      "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlPluginArgumentValidationTest.kt",
+      "source_location": "L42",
+      "id": "audio_control_audiocontrolpluginargumentvalidationtest_audiocontrolpluginargumentvalidationtest_sendaction_with_a_non_map_argument_reports_an_error_instead_of_throwing",
+      "community": 11,
+      "norm_label": ".`sendaction with a non-map argument reports an error instead of throwing`()"
     },
     {
       "label": "SmokeTest.kt",
@@ -1142,7 +1322,7 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/SmokeTest.kt",
       "source_location": "L1",
       "id": "android_src_test_kotlin_com_alexmod_audio_control_smoketest_kt",
-      "community": 29,
+      "community": 32,
       "norm_label": "smoketest.kt"
     },
     {
@@ -1151,7 +1331,7 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/SmokeTest.kt",
       "source_location": "L6",
       "id": "audio_control_smoketest_smoketest",
-      "community": 29,
+      "community": 32,
       "norm_label": "smoketest"
     },
     {
@@ -1160,7 +1340,7 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/SmokeTest.kt",
       "source_location": "L7",
       "id": "audio_control_smoketest_smoketest_test_harness_runs",
-      "community": 29,
+      "community": 32,
       "norm_label": ".`test harness runs`()"
     },
     {
@@ -1169,7 +1349,7 @@
       "source_file": "android/src/main/kotlin/com/alexmod/audio_control/NotificationListener.kt",
       "source_location": "L1",
       "id": "android_src_main_kotlin_com_alexmod_audio_control_notificationlistener_kt",
-      "community": 30,
+      "community": 33,
       "norm_label": "notificationlistener.kt"
     },
     {
@@ -1178,7 +1358,7 @@
       "source_file": "android/src/main/kotlin/com/alexmod/audio_control/NotificationListener.kt",
       "source_location": "L7",
       "id": "audio_control_notificationlistener_notificationlistener",
-      "community": 30,
+      "community": 33,
       "norm_label": "notificationlistener"
     },
     {
@@ -1187,7 +1367,7 @@
       "source_file": "android/src/main/kotlin/com/alexmod/audio_control/NotificationListener.kt",
       "source_location": "L9",
       "id": "audio_control_notificationlistener_isenabled",
-      "community": 30,
+      "community": 33,
       "norm_label": "isenabled()"
     },
     {
@@ -1212,7 +1392,7 @@
       "label": ".init()",
       "file_type": "code",
       "source_file": "android/src/main/kotlin/com/alexmod/audio_control/AudioControl.kt",
-      "source_location": "L37",
+      "source_location": "L38",
       "id": "audio_control_audiocontrol_audiocontrol_init",
       "community": 7,
       "norm_label": ".init()"
@@ -1221,7 +1401,7 @@
       "label": ".isInit()",
       "file_type": "code",
       "source_file": "android/src/main/kotlin/com/alexmod/audio_control/AudioControl.kt",
-      "source_location": "L66",
+      "source_location": "L67",
       "id": "audio_control_audiocontrol_audiocontrol_isinit",
       "community": 7,
       "norm_label": ".isinit()"
@@ -1230,7 +1410,7 @@
       "label": ".getMediaAppsAsync()",
       "file_type": "code",
       "source_file": "android/src/main/kotlin/com/alexmod/audio_control/AudioControl.kt",
-      "source_location": "L70",
+      "source_location": "L71",
       "id": "audio_control_audiocontrol_audiocontrol_getmediaappsasync",
       "community": 7,
       "norm_label": ".getmediaappsasync()"
@@ -1239,7 +1419,7 @@
       "label": ".getActiveSession()",
       "file_type": "code",
       "source_file": "android/src/main/kotlin/com/alexmod/audio_control/AudioControl.kt",
-      "source_location": "L108",
+      "source_location": "L109",
       "id": "audio_control_audiocontrol_audiocontrol_getactivesession",
       "community": 7,
       "norm_label": ".getactivesession()"
@@ -1248,7 +1428,7 @@
       "label": ".setupMediaController()",
       "file_type": "code",
       "source_file": "android/src/main/kotlin/com/alexmod/audio_control/AudioControl.kt",
-      "source_location": "L117",
+      "source_location": "L118",
       "id": "audio_control_audiocontrol_audiocontrol_setupmediacontroller",
       "community": 7,
       "norm_label": ".setupmediacontroller()"
@@ -1257,7 +1437,7 @@
       "label": ".getMediaControllerCallback()",
       "file_type": "code",
       "source_file": "android/src/main/kotlin/com/alexmod/audio_control/AudioControl.kt",
-      "source_location": "L154",
+      "source_location": "L158",
       "id": "audio_control_audiocontrol_audiocontrol_getmediacontrollercallback",
       "community": 7,
       "norm_label": ".getmediacontrollercallback()"
@@ -1266,7 +1446,7 @@
       "label": ".performAction()",
       "file_type": "code",
       "source_file": "android/src/main/kotlin/com/alexmod/audio_control/AudioControl.kt",
-      "source_location": "L190",
+      "source_location": "L195",
       "id": "audio_control_audiocontrol_audiocontrol_performaction",
       "community": 7,
       "norm_label": ".performaction()"
@@ -1275,7 +1455,7 @@
       "label": ".performCustomAction()",
       "file_type": "code",
       "source_file": "android/src/main/kotlin/com/alexmod/audio_control/AudioControl.kt",
-      "source_location": "L213",
+      "source_location": "L218",
       "id": "audio_control_audiocontrol_audiocontrol_performcustomaction",
       "community": 7,
       "norm_label": ".performcustomaction()"
@@ -1284,7 +1464,7 @@
       "label": ".onStop()",
       "file_type": "code",
       "source_file": "android/src/main/kotlin/com/alexmod/audio_control/AudioControl.kt",
-      "source_location": "L219",
+      "source_location": "L224",
       "id": "audio_control_audiocontrol_audiocontrol_onstop",
       "community": 7,
       "norm_label": ".onstop()"
@@ -1311,7 +1491,7 @@
       "label": "convertDrawable()",
       "file_type": "code",
       "source_file": "android/src/main/kotlin/com/alexmod/audio_control/BitmapUtils.kt",
-      "source_location": "L11",
+      "source_location": "L13",
       "id": "audio_control_bitmaputils_convertdrawable",
       "community": 19,
       "norm_label": "convertdrawable()"
@@ -1320,7 +1500,7 @@
       "label": "bitmapToByteArray()",
       "file_type": "code",
       "source_file": "android/src/main/kotlin/com/alexmod/audio_control/BitmapUtils.kt",
-      "source_location": "L30",
+      "source_location": "L32",
       "id": "audio_control_bitmaputils_bitmaptobytearray",
       "community": 19,
       "norm_label": "bitmaptobytearray()"
@@ -1403,7 +1583,7 @@
       "source_file": "android/src/main/kotlin/com/alexmod/audio_control/AudioControlPlugin.kt",
       "source_location": "L1",
       "id": "android_src_main_kotlin_com_alexmod_audio_control_audiocontrolplugin_kt",
-      "community": 16,
+      "community": 11,
       "norm_label": "audiocontrolplugin.kt"
     },
     {
@@ -1412,7 +1592,7 @@
       "source_file": "android/src/main/kotlin/com/alexmod/audio_control/AudioControlPlugin.kt",
       "source_location": "L13",
       "id": "audio_control_audiocontrolplugin_audiocontrolplugin",
-      "community": 16,
+      "community": 11,
       "norm_label": "audiocontrolplugin"
     },
     {
@@ -1421,7 +1601,7 @@
       "source_file": "android/src/main/kotlin/com/alexmod/audio_control/AudioControlPlugin.kt",
       "source_location": "L18",
       "id": "audio_control_audiocontrolplugin_audiocontrolplugin_onattachedtoengine",
-      "community": 16,
+      "community": 11,
       "norm_label": ".onattachedtoengine()"
     },
     {
@@ -1430,16 +1610,16 @@
       "source_file": "android/src/main/kotlin/com/alexmod/audio_control/AudioControlPlugin.kt",
       "source_location": "L25",
       "id": "audio_control_audiocontrolplugin_audiocontrolplugin_onmethodcall",
-      "community": 16,
+      "community": 11,
       "norm_label": ".onmethodcall()"
     },
     {
       "label": ".onDetachedFromEngine()",
       "file_type": "code",
       "source_file": "android/src/main/kotlin/com/alexmod/audio_control/AudioControlPlugin.kt",
-      "source_location": "L69",
+      "source_location": "L78",
       "id": "audio_control_audiocontrolplugin_audiocontrolplugin_ondetachedfromengine",
-      "community": 16,
+      "community": 11,
       "norm_label": ".ondetachedfromengine()"
     },
     {
@@ -1448,7 +1628,7 @@
       "source_file": "android/src/main/kotlin/com/alexmod/audio_control/MediaAppDetails.kt",
       "source_location": "L1",
       "id": "android_src_main_kotlin_com_alexmod_audio_control_mediaappdetails_kt",
-      "community": 31,
+      "community": 34,
       "norm_label": "mediaappdetails.kt"
     },
     {
@@ -1457,7 +1637,7 @@
       "source_file": "android/src/main/kotlin/com/alexmod/audio_control/MediaAppDetails.kt",
       "source_location": "L6",
       "id": "audio_control_mediaappdetails_mediaappdetails",
-      "community": 31,
+      "community": 34,
       "norm_label": "mediaappdetails"
     },
     {
@@ -1466,7 +1646,7 @@
       "source_file": "android/src/main/kotlin/com/alexmod/audio_control/MediaAppDetails.kt",
       "source_location": "L14",
       "id": "audio_control_mediaappdetails_mediaappdetails_tohasmap",
-      "community": 31,
+      "community": 34,
       "norm_label": ".tohasmap()"
     },
     {
@@ -1475,7 +1655,7 @@
       "source_file": "lib/audio_control.dart",
       "source_location": null,
       "id": "lib_audio_control_dart",
-      "community": 9,
+      "community": 8,
       "norm_label": "audio_control.dart"
     },
     {
@@ -1484,7 +1664,7 @@
       "source_file": "lib/audio_control.dart",
       "source_location": null,
       "id": "users_alessandromarengoni_documents_myprojects_audio_control_lib_audio_control_dart_audiocontrol",
-      "community": 9,
+      "community": 8,
       "norm_label": "audiocontrol"
     },
     {
@@ -1493,7 +1673,7 @@
       "source_file": "lib/audio_control.dart",
       "source_location": null,
       "id": "users_alessandromarengoni_documents_myprojects_audio_control_lib_audio_control_dart_setsessiondestroyedlistener",
-      "community": 9,
+      "community": 8,
       "norm_label": "setsessiondestroyedlistener"
     },
     {
@@ -1502,7 +1682,7 @@
       "source_file": "lib/audio_control.dart",
       "source_location": null,
       "id": "users_alessandromarengoni_documents_myprojects_audio_control_lib_audio_control_dart_setstatechangelistener",
-      "community": 9,
+      "community": 8,
       "norm_label": "setstatechangelistener"
     },
     {
@@ -1511,7 +1691,7 @@
       "source_file": "lib/audio_control.dart",
       "source_location": null,
       "id": "users_alessandromarengoni_documents_myprojects_audio_control_lib_audio_control_dart_setsessionchangedlistener",
-      "community": 9,
+      "community": 8,
       "norm_label": "setsessionchangedlistener"
     },
     {
@@ -1520,7 +1700,7 @@
       "source_file": "lib/audio_control_method_channel.dart",
       "source_location": null,
       "id": "audio_control_platform_interface_dart",
-      "community": 9,
+      "community": 8,
       "norm_label": "audio_control_platform_interface.dart"
     },
     {
@@ -1529,7 +1709,7 @@
       "source_file": "lib/audio_control_method_channel.dart",
       "source_location": null,
       "id": "media_app_details_dart",
-      "community": 9,
+      "community": 8,
       "norm_label": "media_app_details.dart"
     },
     {
@@ -1538,7 +1718,7 @@
       "source_file": "lib/audio_control_method_channel.dart",
       "source_location": null,
       "id": "media_info_dart",
-      "community": 9,
+      "community": 8,
       "norm_label": "media_info.dart"
     },
     {
@@ -1565,7 +1745,7 @@
       "source_file": "lib/audio_control_platform_interface.dart",
       "source_location": null,
       "id": "lib_audio_control_platform_interface_dart",
-      "community": 4,
+      "community": 1,
       "norm_label": "audio_control_platform_interface.dart"
     },
     {
@@ -1574,7 +1754,7 @@
       "source_file": "lib/audio_control_platform_interface.dart",
       "source_location": null,
       "id": "users_alessandromarengoni_documents_myprojects_audio_control_lib_audio_control_platform_interface_dart_audiocontrolplatform",
-      "community": 4,
+      "community": 1,
       "norm_label": "audiocontrolplatform"
     },
     {
@@ -1583,7 +1763,7 @@
       "source_file": "lib/audio_control_platform_interface.dart",
       "source_location": null,
       "id": "users_alessandromarengoni_documents_myprojects_audio_control_lib_audio_control_platform_interface_dart_instance",
-      "community": 4,
+      "community": 1,
       "norm_label": "instance"
     },
     {
@@ -1592,7 +1772,7 @@
       "source_file": "lib/audio_control_platform_interface.dart",
       "source_location": null,
       "id": "users_alessandromarengoni_documents_myprojects_audio_control_lib_audio_control_platform_interface_dart_dispose",
-      "community": 4,
+      "community": 1,
       "norm_label": "dispose"
     },
     {
@@ -1601,7 +1781,7 @@
       "source_file": "lib/audio_control_platform_interface.dart",
       "source_location": null,
       "id": "users_alessandromarengoni_documents_myprojects_audio_control_lib_audio_control_platform_interface_dart_unimplementederror",
-      "community": 4,
+      "community": 1,
       "norm_label": "unimplementederror"
     },
     {
@@ -1610,7 +1790,7 @@
       "source_file": "lib/audio_control_platform_interface.dart",
       "source_location": null,
       "id": "users_alessandromarengoni_documents_myprojects_audio_control_lib_audio_control_platform_interface_dart_setsessiondestroyedlistener",
-      "community": 4,
+      "community": 1,
       "norm_label": "setsessiondestroyedlistener"
     },
     {
@@ -1619,7 +1799,7 @@
       "source_file": "lib/audio_control_platform_interface.dart",
       "source_location": null,
       "id": "users_alessandromarengoni_documents_myprojects_audio_control_lib_audio_control_platform_interface_dart_setstatechangelistener",
-      "community": 4,
+      "community": 1,
       "norm_label": "setstatechangelistener"
     },
     {
@@ -1628,7 +1808,7 @@
       "source_file": "lib/audio_control_platform_interface.dart",
       "source_location": null,
       "id": "users_alessandromarengoni_documents_myprojects_audio_control_lib_audio_control_platform_interface_dart_setsessionchangedlistener",
-      "community": 4,
+      "community": 1,
       "norm_label": "setsessionchangedlistener"
     },
     {
@@ -1637,7 +1817,7 @@
       "source_file": "lib/audio_control_platform_interface.dart",
       "source_location": null,
       "id": "audio_control_method_channel_dart",
-      "community": 4,
+      "community": 1,
       "norm_label": "audio_control_method_channel.dart"
     },
     {
@@ -1646,7 +1826,7 @@
       "source_file": "lib/audio_control_method_channel.dart",
       "source_location": null,
       "id": "lib_audio_control_method_channel_dart",
-      "community": 9,
+      "community": 8,
       "norm_label": "audio_control_method_channel.dart"
     },
     {
@@ -1655,8 +1835,17 @@
       "source_file": "lib/audio_control_method_channel.dart",
       "source_location": null,
       "id": "users_alessandromarengoni_documents_myprojects_audio_control_lib_audio_control_method_channel_dart_methodchannelaudiocontrol",
-      "community": 9,
+      "community": 8,
       "norm_label": "methodchannelaudiocontrol"
+    },
+    {
+      "label": "dispose",
+      "file_type": "code",
+      "source_file": "lib/audio_control_method_channel.dart",
+      "source_location": null,
+      "id": "users_alessandromarengoni_documents_myprojects_audio_control_lib_audio_control_method_channel_dart_dispose",
+      "community": 8,
+      "norm_label": "dispose"
     },
     {
       "label": "media_info.dart",
@@ -1682,7 +1871,7 @@
       "source_file": "CHANGELOG.md",
       "source_location": "L1",
       "id": "changelog_md",
-      "community": 34,
+      "community": 37,
       "norm_label": "changelog.md"
     },
     {
@@ -1691,7 +1880,7 @@
       "source_file": "CHANGELOG.md",
       "source_location": "L1",
       "id": "audio_control_changelog_0_0_1",
-      "community": 34,
+      "community": 37,
       "norm_label": "0.0.1"
     },
     {
@@ -1785,10 +1974,19 @@
       "norm_label": "code:bash (cd example)"
     },
     {
+      "label": "code:bash (cd android)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L36",
+      "id": "audio_control_claude_codeblock_3",
+      "community": 10,
+      "norm_label": "code:bash (cd android)"
+    },
+    {
       "label": "Architecture",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L37",
+      "source_location": "L45",
       "id": "audio_control_claude_architecture",
       "community": 10,
       "norm_label": "architecture"
@@ -1797,7 +1995,7 @@
       "label": "Key constraint: the notification listener permission",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L73",
+      "source_location": "L84",
       "id": "audio_control_claude_key_constraint_the_notification_listener_permission",
       "community": 10,
       "norm_label": "key constraint: the notification listener permission"
@@ -1806,7 +2004,7 @@
       "label": "State flow for \"now playing\" data",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L83",
+      "source_location": "L94",
       "id": "audio_control_claude_state_flow_for_now_playing_data",
       "community": 10,
       "norm_label": "state flow for \"now playing\" data"
@@ -1815,7 +2013,7 @@
       "label": "graphify",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L98",
+      "source_location": "L109",
       "id": "audio_control_claude_graphify",
       "community": 10,
       "norm_label": "graphify"
@@ -1826,7 +2024,7 @@
       "source_file": "example/README.md",
       "source_location": "L1",
       "id": "example_readme_md",
-      "community": 32,
+      "community": 35,
       "norm_label": "readme.md"
     },
     {
@@ -1835,7 +2033,7 @@
       "source_file": "example/README.md",
       "source_location": "L1",
       "id": "example_readme_audio_control_example",
-      "community": 32,
+      "community": 35,
       "norm_label": "audio_control_example"
     },
     {
@@ -1844,7 +2042,7 @@
       "source_file": "example/README.md",
       "source_location": "L5",
       "id": "example_readme_getting_started",
-      "community": 32,
+      "community": 35,
       "norm_label": "getting started"
     },
     {
@@ -2033,7 +2231,7 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L443",
       "id": "plans_2026_07_13_android_native_review_task_5_ship_the_notificationlistenerservice_manifest_declaration_with_the_plugin",
-      "community": 13,
+      "community": 15,
       "norm_label": "task 5: ship the `notificationlistenerservice` manifest declaration with the plugin"
     },
     {
@@ -2042,7 +2240,7 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L461",
       "id": "plans_2026_07_13_android_native_review_codeblock_14",
-      "community": 13,
+      "community": 15,
       "norm_label": "code:xml (<manifest xmlns:android=\"http://schemas.android.com/apk/res/)"
     },
     {
@@ -2051,7 +2249,7 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L484",
       "id": "plans_2026_07_13_android_native_review_codeblock_15",
-      "community": 13,
+      "community": 15,
       "norm_label": "code:xml (<manifest xmlns:android=\"http://schemas.android.com/apk/res/)"
     },
     {
@@ -2060,7 +2258,7 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L517",
       "id": "plans_2026_07_13_android_native_review_codeblock_16",
-      "community": 13,
+      "community": 15,
       "norm_label": "code:bash (cd example/android && ./gradlew :app:processdebugmainmanifes)"
     },
     {
@@ -2069,7 +2267,7 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L528",
       "id": "plans_2026_07_13_android_native_review_codeblock_17",
-      "community": 13,
+      "community": 15,
       "norm_label": "code:markdown (## android setup)"
     },
     {
@@ -2078,7 +2276,7 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L544",
       "id": "plans_2026_07_13_android_native_review_codeblock_18",
-      "community": 13,
+      "community": 15,
       "norm_label": "code:bash (git add android/src/main/androidmanifest.xml example/android)"
     },
     {
@@ -2123,7 +2321,7 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L615",
       "id": "plans_2026_07_13_android_native_review_task_7_move_getmediaapps_icon_banner_conversion_off_the_main_thread",
-      "community": 0,
+      "community": 16,
       "norm_label": "task 7: move `getmediaapps()` icon/banner conversion off the main thread"
     },
     {
@@ -2132,7 +2330,7 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L632",
       "id": "plans_2026_07_13_android_native_review_codeblock_22",
-      "community": 0,
+      "community": 16,
       "norm_label": "code:kotlin (package com.alexmod.audio_control)"
     },
     {
@@ -2141,7 +2339,7 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L681",
       "id": "plans_2026_07_13_android_native_review_codeblock_23",
-      "community": 0,
+      "community": 16,
       "norm_label": "code:kotlin (fun getmediaappsasync()"
     },
     {
@@ -2150,7 +2348,7 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L716",
       "id": "plans_2026_07_13_android_native_review_codeblock_24",
-      "community": 0,
+      "community": 16,
       "norm_label": "code:kotlin (import kotlinx.coroutines.coroutinedispatcher)"
     },
     {
@@ -2159,7 +2357,7 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L728",
       "id": "plans_2026_07_13_android_native_review_codeblock_25",
-      "community": 0,
+      "community": 16,
       "norm_label": "code:kotlin (\"getmediaapps\" -> audiocontrol.getmediaappsasync(mcontext) {)"
     },
     {
@@ -2168,7 +2366,7 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L746",
       "id": "plans_2026_07_13_android_native_review_codeblock_26",
-      "community": 0,
+      "community": 16,
       "norm_label": "code:bash (git add android/src/main/kotlin/com/alexmod/audio_control/au)"
     },
     {
@@ -2240,7 +2438,7 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L830",
       "id": "plans_2026_07_13_android_native_review_task_9_regression_tests_for_the_serialization_layer_mediainfo_mediaappdetails_bitmaputils",
-      "community": 17,
+      "community": 0,
       "norm_label": "task 9: regression tests for the serialization layer (`mediainfo`, `mediaappdetails`, `bitmaputils`)"
     },
     {
@@ -2249,7 +2447,7 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L846",
       "id": "plans_2026_07_13_android_native_review_codeblock_33",
-      "community": 17,
+      "community": 0,
       "norm_label": "code:kotlin (package com.alexmod.audio_control)"
     },
     {
@@ -2258,7 +2456,7 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L897",
       "id": "plans_2026_07_13_android_native_review_codeblock_34",
-      "community": 17,
+      "community": 0,
       "norm_label": "code:kotlin (package com.alexmod.audio_control)"
     },
     {
@@ -2267,7 +2465,7 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L931",
       "id": "plans_2026_07_13_android_native_review_codeblock_35",
-      "community": 17,
+      "community": 0,
       "norm_label": "code:kotlin (package com.alexmod.audio_control)"
     },
     {
@@ -2276,7 +2474,7 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L998",
       "id": "plans_2026_07_13_android_native_review_codeblock_36",
-      "community": 17,
+      "community": 0,
       "norm_label": "code:bash (git add android/src/test/kotlin/com/alexmod/audio_control/me)"
     },
     {
@@ -2302,7 +2500,7 @@
       "file_type": "code",
       "source_file": "example/android/build.gradle",
       "source_location": "L1",
-      "community": 44,
+      "community": 47,
       "norm_label": "build.gradle",
       "id": "example_android_build_gradle"
     },
@@ -2311,7 +2509,7 @@
       "file_type": "code",
       "source_file": "example/android/settings.gradle",
       "source_location": "L1",
-      "community": 45,
+      "community": 48,
       "norm_label": "settings.gradle",
       "id": "example_android_settings_gradle"
     },
@@ -2320,7 +2518,7 @@
       "file_type": "code",
       "source_file": "example/android/app/build.gradle",
       "source_location": "L1",
-      "community": 46,
+      "community": 49,
       "norm_label": "build.gradle",
       "id": "example_android_app_build_gradle"
     },
@@ -2342,7 +2540,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 47,
+      "community": 50,
       "norm_label": "mainactivity",
       "id": "mainactivity"
     },
@@ -2355,7 +2553,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 48,
+      "community": 51,
       "norm_label": "notificationlistener",
       "id": "notificationlistener"
     },
@@ -2368,7 +2566,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 9,
       "norm_label": "notificationlistener.isenabled",
       "id": "notificationlistener_isenabled"
     },
@@ -2381,7 +2579,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "norm_label": "audiocontrol",
       "id": "audiocontrol"
     },
@@ -2394,7 +2592,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 9,
       "norm_label": "audiocontrol.init",
       "id": "audiocontrol_init"
     },
@@ -2407,7 +2605,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 9,
       "norm_label": "audiocontrol.getmediaapps",
       "id": "audiocontrol_getmediaapps"
     },
@@ -2420,7 +2618,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 9,
       "norm_label": "audiocontrol.getactivesession",
       "id": "audiocontrol_getactivesession"
     },
@@ -2433,7 +2631,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 9,
       "norm_label": "audiocontrol.setupmediacontroller",
       "id": "audiocontrol_setupmediacontroller"
     },
@@ -2446,7 +2644,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 9,
       "norm_label": "audiocontrol.performaction",
       "id": "audiocontrol_performaction"
     },
@@ -2459,7 +2657,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 9,
       "norm_label": "audiocontrol.performcustomaction",
       "id": "audiocontrol_performcustomaction"
     },
@@ -2472,7 +2670,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 35,
+      "community": 38,
       "norm_label": "bitmaputils",
       "id": "bitmaputils"
     },
@@ -2485,7 +2683,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 9,
       "norm_label": "bitmaputils.convertdrawable",
       "id": "bitmaputils_convertdrawable"
     },
@@ -2498,7 +2696,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 9,
       "norm_label": "bitmaputils.bitmaptobytearray",
       "id": "bitmaputils_bitmaptobytearray"
     },
@@ -2511,7 +2709,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "norm_label": "mediaappdetailsutils",
       "id": "mediaappdetailsutils"
     },
@@ -2524,7 +2722,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 9,
       "norm_label": "mediaappdetailsutils.getmediaappsfromcontrollers",
       "id": "mediaappdetailsutils_getmediaappsfromcontrollers"
     },
@@ -2537,7 +2735,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 9,
       "norm_label": "mediaappdetailsutils.infotomediaappdetails",
       "id": "mediaappdetailsutils_infotomediaappdetails"
     },
@@ -2550,7 +2748,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "norm_label": "mediainfo",
       "id": "mediainfo"
     },
@@ -2563,7 +2761,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 36,
+      "community": 39,
       "norm_label": "mediainfo.tohasmap",
       "id": "mediainfo_tohasmap"
     },
@@ -2576,7 +2774,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 35,
+      "community": 38,
       "norm_label": "mediainfo.customactiontohashmap",
       "id": "mediainfo_customactiontohashmap"
     },
@@ -2589,7 +2787,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "norm_label": "audiocontrolplugin",
       "id": "audiocontrolplugin"
     },
@@ -2602,7 +2800,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 9,
       "norm_label": "audiocontrolplugin.onmethodcall",
       "id": "audiocontrolplugin_onmethodcall"
     },
@@ -2615,7 +2813,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "norm_label": "mediaappdetails",
       "id": "mediaappdetails"
     },
@@ -2628,7 +2826,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 36,
+      "community": 39,
       "norm_label": "mediaappdetails.tohasmap",
       "id": "mediaappdetails_tohasmap"
     },
@@ -2641,7 +2839,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 49,
+      "community": 52,
       "norm_label": "example build configuration",
       "id": "example_build_gradle"
     },
@@ -2654,7 +2852,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 50,
+      "community": 53,
       "norm_label": "plugin build configuration",
       "id": "plugin_build_gradle"
     },
@@ -2667,7 +2865,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 37,
+      "community": 40,
       "norm_label": "playeractions",
       "id": "audio_control_playeractions"
     },
@@ -2680,7 +2878,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 38,
+      "community": 41,
       "norm_label": "actionid",
       "id": "audio_control_actionid"
     },
@@ -2706,7 +2904,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 38,
+      "community": 41,
       "norm_label": "audiocontrol.sendaction",
       "id": "audio_control_audiocontrol_sendaction"
     },
@@ -2719,7 +2917,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 51,
+      "community": 54,
       "norm_label": "audiocontrol.sendcustomaction",
       "id": "audio_control_audiocontrol_sendcustomaction"
     },
@@ -2888,7 +3086,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 37,
+      "community": 40,
       "norm_label": "actionicons",
       "id": "player_page_actionicons"
     },
@@ -2966,7 +3164,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 52,
+      "community": 55,
       "norm_label": "lifecycleeventhandler",
       "id": "dashboard_page_lifecycleeventhandler"
     },
@@ -3005,7 +3203,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "norm_label": "audio_control",
       "id": "audio_control"
     },
@@ -3018,7 +3216,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "norm_label": "audio control plugin",
       "id": "audio_control_plugin"
     },
@@ -3031,7 +3229,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "norm_label": "android audio playback control",
       "id": "android_audio_playback_control"
     },
@@ -3044,7 +3242,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "norm_label": "flutter framework",
       "id": "flutter_framework"
     },
@@ -3057,7 +3255,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "norm_label": "android platform",
       "id": "android_platform"
     },
@@ -3070,7 +3268,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "norm_label": "plugin_platform_interface",
       "id": "plugin_platform_interface"
     },
@@ -3083,7 +3281,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "norm_label": "flutter_lints",
       "id": "flutter_lints"
     },
@@ -3096,7 +3294,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "norm_label": "flutter_test",
       "id": "flutter_test"
     },
@@ -3109,7 +3307,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "norm_label": "dart sdk",
       "id": "dart_sdk"
     },
@@ -3122,7 +3320,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "norm_label": "audio_control_example",
       "id": "audio_control_example"
     },
@@ -3135,7 +3333,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "norm_label": "cupertino_icons",
       "id": "cupertino_icons"
     },
@@ -3148,7 +3346,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "norm_label": "wakelock",
       "id": "wakelock"
     },
@@ -3161,7 +3359,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "norm_label": "external_app_launcher",
       "id": "external_app_launcher"
     },
@@ -3174,7 +3372,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "norm_label": "version 0.0.1",
       "id": "version_0_0_1"
     },
@@ -3187,7 +3385,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "norm_label": "flutter plugin architecture",
       "id": "flutter_plugin_architecture"
     },
@@ -3200,7 +3398,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 12,
       "norm_label": "audio control android launcher icon",
       "id": "audio_control_launcher_icon"
     },
@@ -3213,7 +3411,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 12,
       "norm_label": "flutter framework logo",
       "id": "flutter_logo"
     },
@@ -3226,7 +3424,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 12,
       "norm_label": "launcher icon mdpi (48x48)",
       "id": "ic_launcher_mdpi"
     },
@@ -3239,7 +3437,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 12,
       "norm_label": "launcher icon hdpi (72x72)",
       "id": "ic_launcher_hdpi"
     },
@@ -3252,7 +3450,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 12,
       "norm_label": "launcher icon xhdpi (96x96)",
       "id": "ic_launcher_xhdpi"
     },
@@ -3265,7 +3463,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 12,
       "norm_label": "launcher icon xxhdpi (144x144)",
       "id": "ic_launcher_xxhdpi"
     },
@@ -3278,7 +3476,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 12,
       "norm_label": "launcher icon xxxhdpi (192x192)",
       "id": "ic_launcher_xxxhdpi"
     }
@@ -3288,11 +3486,111 @@
       "relation": "defines",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
+      "source_file": "test/audio_control_platform_interface_test.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "test_audio_control_platform_interface_test_dart",
+      "target": "users_alessandromarengoni_documents_myprojects_audio_control_test_audio_control_platform_interface_test_dart_bareaudiocontrolplatform"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/audio_control_platform_interface_test.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "test_audio_control_platform_interface_test_dart",
+      "target": "users_alessandromarengoni_documents_myprojects_audio_control_test_audio_control_platform_interface_test_dart_main"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/audio_control_platform_interface_test.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "test_audio_control_platform_interface_test_dart",
+      "target": "package_flutter_test_flutter_test_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/audio_control_platform_interface_test.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "test_audio_control_platform_interface_test_dart",
+      "target": "package_audio_control_audio_control_platform_interface_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/audio_control_method_channel_test.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "test_audio_control_method_channel_test_dart",
+      "target": "package_flutter_test_flutter_test_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/audio_control_test.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "test_audio_control_test_dart",
+      "target": "package_flutter_test_flutter_test_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "example/test/widget_test.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "example_test_widget_test_dart",
+      "target": "package_flutter_test_flutter_test_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/audio_control_test.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "test_audio_control_test_dart",
+      "target": "package_audio_control_audio_control_platform_interface_dart"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "test/audio_control_method_channel_test.dart",
       "source_location": null,
       "weight": 1.0,
       "source": "test_audio_control_method_channel_test_dart",
       "target": "users_alessandromarengoni_documents_myprojects_audio_control_test_audio_control_method_channel_test_dart_main"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/audio_control_method_channel_test.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "test_audio_control_method_channel_test_dart",
+      "target": "users_alessandromarengoni_documents_myprojects_audio_control_test_audio_control_method_channel_test_dart_simulatenativecall"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/audio_control_method_channel_test.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "test_audio_control_method_channel_test_dart",
+      "target": "dart_async"
     },
     {
       "relation": "imports",
@@ -3312,7 +3610,7 @@
       "source_location": null,
       "weight": 1.0,
       "source": "test_audio_control_method_channel_test_dart",
-      "target": "package_flutter_test_flutter_test_dart"
+      "target": "package_audio_control_audio_control_method_channel_dart"
     },
     {
       "relation": "imports",
@@ -3322,7 +3620,77 @@
       "source_location": null,
       "weight": 1.0,
       "source": "test_audio_control_method_channel_test_dart",
-      "target": "package_audio_control_audio_control_method_channel_dart"
+      "target": "package_audio_control_media_info_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/audio_control_method_channel_test.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "test_audio_control_method_channel_test_dart",
+      "target": "package_audio_control_media_app_details_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/audio_control_test.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "test_audio_control_test_dart",
+      "target": "dart_async"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "example/lib/player_page.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "example_lib_player_page_dart",
+      "target": "dart_async"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "example/lib/dashboard_page.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "example_lib_dashboard_page_dart",
+      "target": "dart_async"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/audio_control.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_audio_control_dart",
+      "target": "dart_async"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/audio_control_platform_interface.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_audio_control_platform_interface_dart",
+      "target": "dart_async"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/audio_control_method_channel.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_audio_control_method_channel_dart",
+      "target": "dart_async"
     },
     {
       "relation": "imports",
@@ -3352,17 +3720,7 @@
       "source_location": null,
       "weight": 1.0,
       "source": "test_audio_control_test_dart",
-      "target": "package_flutter_test_flutter_test_dart"
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "example/test/widget_test.dart",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "example_test_widget_test_dart",
-      "target": "package_flutter_test_flutter_test_dart"
+      "target": "package_audio_control_audio_control_method_channel_dart"
     },
     {
       "relation": "imports",
@@ -3372,7 +3730,57 @@
       "source_location": null,
       "weight": 1.0,
       "source": "test_audio_control_test_dart",
-      "target": "package_audio_control_audio_control_method_channel_dart"
+      "target": "package_audio_control_media_info_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "example/lib/player_page.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "example_lib_player_page_dart",
+      "target": "package_audio_control_media_info_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/audio_control_platform_interface.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_audio_control_platform_interface_dart",
+      "target": "package_audio_control_media_info_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/audio_control_test.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "test_audio_control_test_dart",
+      "target": "package_audio_control_media_app_details_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "example/lib/dashboard_page.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "example_lib_dashboard_page_dart",
+      "target": "package_audio_control_media_app_details_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/audio_control_platform_interface.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_audio_control_platform_interface_dart",
+      "target": "package_audio_control_media_app_details_dart"
     },
     {
       "relation": "defines",
@@ -3383,6 +3791,16 @@
       "weight": 1.0,
       "source": "test_audio_control_test_dart",
       "target": "users_alessandromarengoni_documents_myprojects_audio_control_test_audio_control_test_dart_mockaudiocontrolplatform"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/audio_control_test.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "test_audio_control_test_dart",
+      "target": "users_alessandromarengoni_documents_myprojects_audio_control_test_audio_control_test_dart_nullinitializeplatform"
     },
     {
       "relation": "defines",
@@ -3442,16 +3860,6 @@
       "source_location": null,
       "weight": 1.0,
       "source": "test_audio_control_test_dart",
-      "target": "dart_async"
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "test/audio_control_test.dart",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "test_audio_control_test_dart",
       "target": "package_audio_control_audio_control_dart"
     },
     {
@@ -3462,87 +3870,7 @@
       "source_location": null,
       "weight": 1.0,
       "source": "test_audio_control_test_dart",
-      "target": "package_audio_control_audio_control_platform_interface_dart"
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "test/audio_control_test.dart",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "test_audio_control_test_dart",
-      "target": "package_audio_control_media_app_details_dart"
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "test/audio_control_test.dart",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "test_audio_control_test_dart",
-      "target": "package_audio_control_media_info_dart"
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "test/audio_control_test.dart",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "test_audio_control_test_dart",
       "target": "package_plugin_platform_interface_plugin_platform_interface_dart"
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "example/lib/player_page.dart",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "example_lib_player_page_dart",
-      "target": "dart_async"
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "example/lib/dashboard_page.dart",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "example_lib_dashboard_page_dart",
-      "target": "dart_async"
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "lib/audio_control.dart",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "lib_audio_control_dart",
-      "target": "dart_async"
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "lib/audio_control_platform_interface.dart",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "lib_audio_control_platform_interface_dart",
-      "target": "dart_async"
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "lib/audio_control_method_channel.dart",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "lib_audio_control_method_channel_dart",
-      "target": "dart_async"
     },
     {
       "relation": "imports",
@@ -3573,46 +3901,6 @@
       "weight": 1.0,
       "source": "example_lib_main_dart",
       "target": "package_audio_control_audio_control_dart"
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "example/lib/dashboard_page.dart",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "example_lib_dashboard_page_dart",
-      "target": "package_audio_control_media_app_details_dart"
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "lib/audio_control_platform_interface.dart",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "lib_audio_control_platform_interface_dart",
-      "target": "package_audio_control_media_app_details_dart"
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "example/lib/player_page.dart",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "example_lib_player_page_dart",
-      "target": "package_audio_control_media_info_dart"
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "lib/audio_control_platform_interface.dart",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "lib_audio_control_platform_interface_dart",
-      "target": "package_audio_control_media_info_dart"
     },
     {
       "relation": "imports",
@@ -4257,12 +4545,52 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlSessionListenerLifecycleTest.kt",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "android_src_test_kotlin_com_alexmod_audio_control_audiocontrolsessionlistenerlifecycletest_kt",
+      "target": "audio_control_audiocontrolsessionlistenerlifecycletest_audiocontrolsessionlistenerlifecycletest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlSessionListenerLifecycleTest.kt",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "audio_control_audiocontrolsessionlistenerlifecycletest_audiocontrolsessionlistenerlifecycletest",
+      "target": "audio_control_audiocontrolsessionlistenerlifecycletest_audiocontrolsessionlistenerlifecycletest_onstop_removes_the_active_sessions_changed_listener_that_init_registered",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlSetupMediaControllerReplacesPreviousCallbackTest.kt",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "android_src_test_kotlin_com_alexmod_audio_control_audiocontrolsetupmediacontrollerreplacespreviouscallbacktest_kt",
+      "target": "audio_control_audiocontrolsetupmediacontrollerreplacespreviouscallbacktest_audiocontrolsetupmediacontrollerreplacespreviouscallbacktest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlSetupMediaControllerReplacesPreviousCallbackTest.kt",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "audio_control_audiocontrolsetupmediacontrollerreplacespreviouscallbacktest_audiocontrolsetupmediacontrollerreplacespreviouscallbacktest",
+      "target": "audio_control_audiocontrolsetupmediacontrollerreplacespreviouscallbacktest_audiocontrolsetupmediacontrollerreplacespreviouscallbacktest_setupmediacontroller_unregisters_the_previous_controller_s_callback_before_replacing_it",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlGetActiveSessionTest.kt",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "android_src_test_kotlin_com_alexmod_audio_control_audiocontrolgetactivesessiontest_kt",
-      "target": "audio_control_audiocontrolgetactivesessiontest_audiocontrolgetactivesessiontest",
-      "confidence_score": 1.0
+      "target": "audio_control_audiocontrolgetactivesessiontest_audiocontrolgetactivesessiontest"
     },
     {
       "relation": "method",
@@ -4270,9 +4598,9 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlGetActiveSessionTest.kt",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "audio_control_audiocontrolgetactivesessiontest_audiocontrolgetactivesessiontest",
-      "target": "audio_control_audiocontrolgetactivesessiontest_audiocontrolgetactivesessiontest_getactivesession_before_initialize_returns_empty_list_instead_of_throwing",
-      "confidence_score": 1.0
+      "target": "audio_control_audiocontrolgetactivesessiontest_audiocontrolgetactivesessiontest_getactivesession_before_initialize_returns_empty_list_instead_of_throwing"
     },
     {
       "relation": "contains",
@@ -4280,9 +4608,9 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlGetMediaAppsTest.kt",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "android_src_test_kotlin_com_alexmod_audio_control_audiocontrolgetmediaappstest_kt",
-      "target": "audio_control_audiocontrolgetmediaappstest_audiocontrolgetmediaappstest",
-      "confidence_score": 1.0
+      "target": "audio_control_audiocontrolgetmediaappstest_audiocontrolgetmediaappstest"
     },
     {
       "relation": "method",
@@ -4290,9 +4618,9 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlGetMediaAppsTest.kt",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "audio_control_audiocontrolgetmediaappstest_audiocontrolgetmediaappstest",
-      "target": "audio_control_audiocontrolgetmediaappstest_audiocontrolgetmediaappstest_setup",
-      "confidence_score": 1.0
+      "target": "audio_control_audiocontrolgetmediaappstest_audiocontrolgetmediaappstest_setup"
     },
     {
       "relation": "method",
@@ -4300,9 +4628,9 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlGetMediaAppsTest.kt",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "audio_control_audiocontrolgetmediaappstest_audiocontrolgetmediaappstest",
-      "target": "audio_control_audiocontrolgetmediaappstest_audiocontrolgetmediaappstest_teardown",
-      "confidence_score": 1.0
+      "target": "audio_control_audiocontrolgetmediaappstest_audiocontrolgetmediaappstest_teardown"
     },
     {
       "relation": "method",
@@ -4310,9 +4638,9 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlGetMediaAppsTest.kt",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "audio_control_audiocontrolgetmediaappstest_audiocontrolgetmediaappstest",
-      "target": "audio_control_audiocontrolgetmediaappstest_audiocontrolgetmediaappstest_getmediaappsasync_completes_with_an_empty_list_when_no_media_apps_are_installed",
-      "confidence_score": 1.0
+      "target": "audio_control_audiocontrolgetmediaappstest_audiocontrolgetmediaappstest_getmediaappsasync_completes_with_an_empty_list_when_no_media_apps_are_installed"
     },
     {
       "relation": "method",
@@ -4320,9 +4648,9 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlGetMediaAppsTest.kt",
       "source_location": "L54",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "audio_control_audiocontrolgetmediaappstest_audiocontrolgetmediaappstest",
-      "target": "audio_control_audiocontrolgetmediaappstest_audiocontrolgetmediaappstest_getmediaappsasync_completes_with_an_empty_list_when_queryintentservices_throws",
-      "confidence_score": 1.0
+      "target": "audio_control_audiocontrolgetmediaappstest_audiocontrolgetmediaappstest_getmediaappsasync_completes_with_an_empty_list_when_queryintentservices_throws"
     },
     {
       "relation": "contains",
@@ -4330,9 +4658,9 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlSetupMediaControllerTest.kt",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "android_src_test_kotlin_com_alexmod_audio_control_audiocontrolsetupmediacontrollertest_kt",
-      "target": "audio_control_audiocontrolsetupmediacontrollertest_audiocontrolsetupmediacontrollertest",
-      "confidence_score": 1.0
+      "target": "audio_control_audiocontrolsetupmediacontrollertest_audiocontrolsetupmediacontrollertest"
     },
     {
       "relation": "method",
@@ -4340,8 +4668,28 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlSetupMediaControllerTest.kt",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "audio_control_audiocontrolsetupmediacontrollertest_audiocontrolsetupmediacontrollertest",
-      "target": "audio_control_audiocontrolsetupmediacontrollertest_audiocontrolsetupmediacontrollertest_setupmediacontroller_returns_false_when_target_app_resources_cannot_be_resolved",
+      "target": "audio_control_audiocontrolsetupmediacontrollertest_audiocontrolsetupmediacontrollertest_setupmediacontroller_returns_false_when_target_app_resources_cannot_be_resolved"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlPlaybackCallbackRaceTest.kt",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "android_src_test_kotlin_com_alexmod_audio_control_audiocontrolplaybackcallbackracetest_kt",
+      "target": "audio_control_audiocontrolplaybackcallbackracetest_audiocontrolplaybackcallbackracetest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlPlaybackCallbackRaceTest.kt",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "audio_control_audiocontrolplaybackcallbackracetest_audiocontrolplaybackcallbackracetest",
+      "target": "audio_control_audiocontrolplaybackcallbackracetest_audiocontrolplaybackcallbackracetest_onplaybackstatechanged_does_not_crash_when_mediacontroller_has_been_cleared_concurrently",
       "confidence_score": 1.0
     },
     {
@@ -4350,9 +4698,9 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlAlbumArtTest.kt",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "android_src_test_kotlin_com_alexmod_audio_control_audiocontrolalbumarttest_kt",
-      "target": "audio_control_audiocontrolalbumarttest_audiocontrolalbumarttest",
-      "confidence_score": 1.0
+      "target": "audio_control_audiocontrolalbumarttest_audiocontrolalbumarttest"
     },
     {
       "relation": "method",
@@ -4360,9 +4708,9 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlAlbumArtTest.kt",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "audio_control_audiocontrolalbumarttest_audiocontrolalbumarttest",
-      "target": "audio_control_audiocontrolalbumarttest_audiocontrolalbumarttest_onplaybackstatechanged_does_not_crash_when_track_has_no_embedded_album_art_bitmap",
-      "confidence_score": 1.0
+      "target": "audio_control_audiocontrolalbumarttest_audiocontrolalbumarttest_onplaybackstatechanged_does_not_crash_when_track_has_no_embedded_album_art_bitmap"
     },
     {
       "relation": "contains",
@@ -4370,9 +4718,9 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlPerformActionTest.kt",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "android_src_test_kotlin_com_alexmod_audio_control_audiocontrolperformactiontest_kt",
-      "target": "audio_control_audiocontrolperformactiontest_audiocontrolperformactiontest",
-      "confidence_score": 1.0
+      "target": "audio_control_audiocontrolperformactiontest_audiocontrolperformactiontest"
     },
     {
       "relation": "method",
@@ -4380,9 +4728,9 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlPerformActionTest.kt",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "audio_control_audiocontrolperformactiontest_audiocontrolperformactiontest",
-      "target": "audio_control_audiocontrolperformactiontest_audiocontrolperformactiontest_audiocontrolwithmockcontroller",
-      "confidence_score": 1.0
+      "target": "audio_control_audiocontrolperformactiontest_audiocontrolperformactiontest_audiocontrolwithmockcontroller"
     },
     {
       "relation": "method",
@@ -4390,9 +4738,9 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlPerformActionTest.kt",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "audio_control_audiocontrolperformactiontest_audiocontrolperformactiontest",
-      "target": "audio_control_audiocontrolperformactiontest_audiocontrolperformactiontest_fast_forward_action_calls_fastforward_on_transport_controls",
-      "confidence_score": 1.0
+      "target": "audio_control_audiocontrolperformactiontest_audiocontrolperformactiontest_fast_forward_action_calls_fastforward_on_transport_controls"
     },
     {
       "relation": "method",
@@ -4400,9 +4748,9 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlPerformActionTest.kt",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "audio_control_audiocontrolperformactiontest_audiocontrolperformactiontest",
-      "target": "audio_control_audiocontrolperformactiontest_audiocontrolperformactiontest_rewind_action_calls_rewind_on_transport_controls",
-      "confidence_score": 1.0
+      "target": "audio_control_audiocontrolperformactiontest_audiocontrolperformactiontest_rewind_action_calls_rewind_on_transport_controls"
     },
     {
       "relation": "calls",
@@ -4411,9 +4759,9 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlPerformActionTest.kt",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "audio_control_audiocontrolperformactiontest_audiocontrolperformactiontest_fast_forward_action_calls_fastforward_on_transport_controls",
-      "target": "audio_control_audiocontrolperformactiontest_audiocontrolperformactiontest_audiocontrolwithmockcontroller",
-      "confidence_score": 1.0
+      "target": "audio_control_audiocontrolperformactiontest_audiocontrolperformactiontest_audiocontrolwithmockcontroller"
     },
     {
       "relation": "calls",
@@ -4422,9 +4770,9 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlPerformActionTest.kt",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "audio_control_audiocontrolperformactiontest_audiocontrolperformactiontest_rewind_action_calls_rewind_on_transport_controls",
-      "target": "audio_control_audiocontrolperformactiontest_audiocontrolperformactiontest_audiocontrolwithmockcontroller",
-      "confidence_score": 1.0
+      "target": "audio_control_audiocontrolperformactiontest_audiocontrolperformactiontest_audiocontrolwithmockcontroller"
     },
     {
       "relation": "contains",
@@ -4432,9 +4780,9 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/BitmapUtilsTest.kt",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "android_src_test_kotlin_com_alexmod_audio_control_bitmaputilstest_kt",
-      "target": "audio_control_bitmaputilstest_bitmaputilstest",
-      "confidence_score": 1.0
+      "target": "audio_control_bitmaputilstest_bitmaputilstest"
     },
     {
       "relation": "method",
@@ -4442,9 +4790,9 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/BitmapUtilsTest.kt",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "audio_control_bitmaputilstest_bitmaputilstest",
-      "target": "audio_control_bitmaputilstest_bitmaputilstest_bitmaptobytearray_produces_a_non_empty_png_encoded_array",
-      "confidence_score": 1.0
+      "target": "audio_control_bitmaputilstest_bitmaputilstest_bitmaptobytearray_produces_a_non_empty_png_encoded_array"
     },
     {
       "relation": "method",
@@ -4452,9 +4800,9 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/BitmapUtilsTest.kt",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "audio_control_bitmaputilstest_bitmaputilstest",
-      "target": "audio_control_bitmaputilstest_bitmaputilstest_convertdrawable_handles_a_bitmapdrawable_by_reusing_its_bitmap",
-      "confidence_score": 1.0
+      "target": "audio_control_bitmaputilstest_bitmaputilstest_convertdrawable_handles_a_bitmapdrawable_by_reusing_its_bitmap"
     },
     {
       "relation": "method",
@@ -4462,8 +4810,18 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/BitmapUtilsTest.kt",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "audio_control_bitmaputilstest_bitmaputilstest",
-      "target": "audio_control_bitmaputilstest_bitmaputilstest_convertdrawable_rasterizes_a_non_bitmap_drawable",
+      "target": "audio_control_bitmaputilstest_bitmaputilstest_convertdrawable_rasterizes_a_non_bitmap_drawable"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/src/test/kotlin/com/alexmod/audio_control/BitmapUtilsTest.kt",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "audio_control_bitmaputilstest_bitmaputilstest",
+      "target": "audio_control_bitmaputilstest_bitmaputilstest_convertdrawable_caps_oversized_non_bitmap_drawables_to_the_maximum_dimension",
       "confidence_score": 1.0
     },
     {
@@ -4472,9 +4830,9 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/MediaInfoTest.kt",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "android_src_test_kotlin_com_alexmod_audio_control_mediainfotest_kt",
-      "target": "audio_control_mediainfotest_mediainfotest",
-      "confidence_score": 1.0
+      "target": "audio_control_mediainfotest_mediainfotest"
     },
     {
       "relation": "method",
@@ -4482,9 +4840,9 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/MediaInfoTest.kt",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "audio_control_mediainfotest_mediainfotest",
-      "target": "audio_control_mediainfotest_mediainfotest_tohasmap_serializes_all_fields_with_the_channel_contract_keys",
-      "confidence_score": 1.0
+      "target": "audio_control_mediainfotest_mediainfotest_tohasmap_serializes_all_fields_with_the_channel_contract_keys"
     },
     {
       "relation": "method",
@@ -4492,9 +4850,9 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/MediaInfoTest.kt",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "audio_control_mediainfotest_mediainfotest",
-      "target": "audio_control_mediainfotest_mediainfotest_customactiontohashmap_serializes_name_icon_and_action",
-      "confidence_score": 1.0
+      "target": "audio_control_mediainfotest_mediainfotest_customactiontohashmap_serializes_name_icon_and_action"
     },
     {
       "relation": "contains",
@@ -4502,9 +4860,9 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/MediaAppDetailsTest.kt",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "android_src_test_kotlin_com_alexmod_audio_control_mediaappdetailstest_kt",
-      "target": "audio_control_mediaappdetailstest_mediaappdetailstest",
-      "confidence_score": 1.0
+      "target": "audio_control_mediaappdetailstest_mediaappdetailstest"
     },
     {
       "relation": "method",
@@ -4512,9 +4870,82 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/MediaAppDetailsTest.kt",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "audio_control_mediaappdetailstest_mediaappdetailstest",
-      "target": "audio_control_mediaappdetailstest_mediaappdetailstest_tohasmap_serializes_packagename_appname_icon_and_banner_but_not_the_session_token",
+      "target": "audio_control_mediaappdetailstest_mediaappdetailstest_tohasmap_serializes_packagename_appname_icon_and_banner_but_not_the_session_token"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlPluginArgumentValidationTest.kt",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "android_src_test_kotlin_com_alexmod_audio_control_audiocontrolpluginargumentvalidationtest_kt",
+      "target": "audio_control_audiocontrolpluginargumentvalidationtest_audiocontrolpluginargumentvalidationtest",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlPluginArgumentValidationTest.kt",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "audio_control_audiocontrolpluginargumentvalidationtest_audiocontrolpluginargumentvalidationtest",
+      "target": "audio_control_audiocontrolpluginargumentvalidationtest_audiocontrolpluginargumentvalidationtest_attachedplugin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlPluginArgumentValidationTest.kt",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "audio_control_audiocontrolpluginargumentvalidationtest_audiocontrolpluginargumentvalidationtest",
+      "target": "audio_control_audiocontrolpluginargumentvalidationtest_audiocontrolpluginargumentvalidationtest_controlmediaapp_with_a_non_string_argument_reports_an_error_instead_of_throwing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlPluginArgumentValidationTest.kt",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "audio_control_audiocontrolpluginargumentvalidationtest_audiocontrolpluginargumentvalidationtest",
+      "target": "audio_control_audiocontrolpluginargumentvalidationtest_audiocontrolpluginargumentvalidationtest_sendaction_with_a_non_map_argument_reports_an_error_instead_of_throwing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlPluginArgumentValidationTest.kt",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "audio_control_audiocontrolpluginargumentvalidationtest_audiocontrolpluginargumentvalidationtest_controlmediaapp_with_a_non_string_argument_reports_an_error_instead_of_throwing",
+      "target": "audio_control_audiocontrolpluginargumentvalidationtest_audiocontrolpluginargumentvalidationtest_attachedplugin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlPluginArgumentValidationTest.kt",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "audio_control_audiocontrolpluginargumentvalidationtest_audiocontrolpluginargumentvalidationtest_sendaction_with_a_non_map_argument_reports_an_error_instead_of_throwing",
+      "target": "audio_control_audiocontrolpluginargumentvalidationtest_audiocontrolpluginargumentvalidationtest_attachedplugin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "android/src/test/kotlin/com/alexmod/audio_control/AudioControlPluginArgumentValidationTest.kt",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "audio_control_audiocontrolpluginargumentvalidationtest_audiocontrolpluginargumentvalidationtest_attachedplugin",
+      "target": "audio_control_audiocontrolplugin_audiocontrolplugin"
     },
     {
       "relation": "contains",
@@ -4522,9 +4953,9 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/SmokeTest.kt",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "android_src_test_kotlin_com_alexmod_audio_control_smoketest_kt",
-      "target": "audio_control_smoketest_smoketest",
-      "confidence_score": 1.0
+      "target": "audio_control_smoketest_smoketest"
     },
     {
       "relation": "method",
@@ -4532,9 +4963,9 @@
       "source_file": "android/src/test/kotlin/com/alexmod/audio_control/SmokeTest.kt",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "audio_control_smoketest_smoketest",
-      "target": "audio_control_smoketest_smoketest_test_harness_runs",
-      "confidence_score": 1.0
+      "target": "audio_control_smoketest_smoketest_test_harness_runs"
     },
     {
       "relation": "contains",
@@ -4592,9 +5023,9 @@
       "source_file": "android/src/main/kotlin/com/alexmod/audio_control/AudioControl.kt",
       "source_location": "L70",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "audio_control_audiocontrol_audiocontrol",
-      "target": "audio_control_audiocontrol_audiocontrol_getmediaappsasync",
-      "confidence_score": 1.0
+      "target": "audio_control_audiocontrol_audiocontrol_getmediaappsasync"
     },
     {
       "relation": "method",
@@ -5053,6 +5484,16 @@
       "relation": "defines",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
+      "source_file": "lib/audio_control_method_channel.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_audio_control_method_channel_dart",
+      "target": "users_alessandromarengoni_documents_myprojects_audio_control_lib_audio_control_method_channel_dart_dispose"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "lib/media_info.dart",
       "source_location": null,
       "weight": 1.0,
@@ -5095,9 +5536,9 @@
       "source_file": "README.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "audio_control_readme_audio_control_plugin",
-      "target": "audio_control_readme_android_setup",
-      "confidence_score": 1.0
+      "target": "audio_control_readme_android_setup"
     },
     {
       "relation": "contains",
@@ -5173,6 +5614,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CLAUDE.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "audio_control_claude_commands",
+      "target": "audio_control_claude_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
       "source_location": "L73",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -5215,9 +5666,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_superpowers_plans_2026_07_13_android_native_review_md",
-      "target": "plans_2026_07_13_android_native_review_android_native_hardening_implementation_plan",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_android_native_hardening_implementation_plan"
     },
     {
       "relation": "contains",
@@ -5225,9 +5676,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_android_native_hardening_implementation_plan",
-      "target": "plans_2026_07_13_android_native_review_global_constraints",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_global_constraints"
     },
     {
       "relation": "contains",
@@ -5235,9 +5686,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_android_native_hardening_implementation_plan",
-      "target": "plans_2026_07_13_android_native_review_task_1_android_native_unit_test_infrastructure",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_task_1_android_native_unit_test_infrastructure"
     },
     {
       "relation": "contains",
@@ -5245,9 +5696,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L113",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_android_native_hardening_implementation_plan",
-      "target": "plans_2026_07_13_android_native_review_task_2_fix_performaction_fast_forward_rewind_silently_no_op",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_task_2_fix_performaction_fast_forward_rewind_silently_no_op"
     },
     {
       "relation": "contains",
@@ -5255,9 +5706,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L222",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_android_native_hardening_implementation_plan",
-      "target": "plans_2026_07_13_android_native_review_task_3_guard_getactivesession_against_calls_before_initialize",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_task_3_guard_getactivesession_against_calls_before_initialize"
     },
     {
       "relation": "contains",
@@ -5265,9 +5716,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L296",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_android_native_hardening_implementation_plan",
-      "target": "plans_2026_07_13_android_native_review_task_4_harden_setupmediacontroller_against_resource_lookup_failures",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_task_4_harden_setupmediacontroller_against_resource_lookup_failures"
     },
     {
       "relation": "contains",
@@ -5275,9 +5726,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L443",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_android_native_hardening_implementation_plan",
-      "target": "plans_2026_07_13_android_native_review_task_5_ship_the_notificationlistenerservice_manifest_declaration_with_the_plugin",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_task_5_ship_the_notificationlistenerservice_manifest_declaration_with_the_plugin"
     },
     {
       "relation": "contains",
@@ -5285,9 +5736,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L551",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_android_native_hardening_implementation_plan",
-      "target": "plans_2026_07_13_android_native_review_task_6_tighten_permissions_scoped_queries_instead_of_query_all_packages_drop_unused_install_shortcut",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_task_6_tighten_permissions_scoped_queries_instead_of_query_all_packages_drop_unused_install_shortcut"
     },
     {
       "relation": "contains",
@@ -5295,9 +5746,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L615",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_android_native_hardening_implementation_plan",
-      "target": "plans_2026_07_13_android_native_review_task_7_move_getmediaapps_icon_banner_conversion_off_the_main_thread",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_task_7_move_getmediaapps_icon_banner_conversion_off_the_main_thread"
     },
     {
       "relation": "contains",
@@ -5305,9 +5756,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L753",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_android_native_hardening_implementation_plan",
-      "target": "plans_2026_07_13_android_native_review_task_8_minor_cleanups",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_task_8_minor_cleanups"
     },
     {
       "relation": "contains",
@@ -5315,9 +5766,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L830",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_android_native_hardening_implementation_plan",
-      "target": "plans_2026_07_13_android_native_review_task_9_regression_tests_for_the_serialization_layer_mediainfo_mediaappdetails_bitmaputils",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_task_9_regression_tests_for_the_serialization_layer_mediainfo_mediaappdetails_bitmaputils"
     },
     {
       "relation": "contains",
@@ -5325,9 +5776,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L1005",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_android_native_hardening_implementation_plan",
-      "target": "plans_2026_07_13_android_native_review_final_verification_run_once_after_all_tasks_land",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_final_verification_run_once_after_all_tasks_land"
     },
     {
       "relation": "contains",
@@ -5335,9 +5786,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_task_1_android_native_unit_test_infrastructure",
-      "target": "plans_2026_07_13_android_native_review_codeblock_1",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_codeblock_1"
     },
     {
       "relation": "contains",
@@ -5345,9 +5796,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L84",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_task_1_android_native_unit_test_infrastructure",
-      "target": "plans_2026_07_13_android_native_review_codeblock_2",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_codeblock_2"
     },
     {
       "relation": "contains",
@@ -5355,9 +5806,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L106",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_task_1_android_native_unit_test_infrastructure",
-      "target": "plans_2026_07_13_android_native_review_codeblock_3",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_codeblock_3"
     },
     {
       "relation": "contains",
@@ -5365,9 +5816,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L128",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_task_2_fix_performaction_fast_forward_rewind_silently_no_op",
-      "target": "plans_2026_07_13_android_native_review_codeblock_4",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_codeblock_4"
     },
     {
       "relation": "contains",
@@ -5375,9 +5826,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L182",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_task_2_fix_performaction_fast_forward_rewind_silently_no_op",
-      "target": "plans_2026_07_13_android_native_review_codeblock_5",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_codeblock_5"
     },
     {
       "relation": "contains",
@@ -5385,9 +5836,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L215",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_task_2_fix_performaction_fast_forward_rewind_silently_no_op",
-      "target": "plans_2026_07_13_android_native_review_codeblock_6",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_codeblock_6"
     },
     {
       "relation": "contains",
@@ -5395,9 +5846,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L238",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_task_3_guard_getactivesession_against_calls_before_initialize",
-      "target": "plans_2026_07_13_android_native_review_codeblock_7",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_codeblock_7"
     },
     {
       "relation": "contains",
@@ -5405,9 +5856,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L270",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_task_3_guard_getactivesession_against_calls_before_initialize",
-      "target": "plans_2026_07_13_android_native_review_codeblock_8",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_codeblock_8"
     },
     {
       "relation": "contains",
@@ -5415,9 +5866,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L289",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_task_3_guard_getactivesession_against_calls_before_initialize",
-      "target": "plans_2026_07_13_android_native_review_codeblock_9",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_codeblock_9"
     },
     {
       "relation": "contains",
@@ -5425,9 +5876,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L315",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_task_4_harden_setupmediacontroller_against_resource_lookup_failures",
-      "target": "plans_2026_07_13_android_native_review_codeblock_10",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_codeblock_10"
     },
     {
       "relation": "contains",
@@ -5435,9 +5886,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L372",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_task_4_harden_setupmediacontroller_against_resource_lookup_failures",
-      "target": "plans_2026_07_13_android_native_review_codeblock_11",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_codeblock_11"
     },
     {
       "relation": "contains",
@@ -5445,9 +5896,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L413",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_task_4_harden_setupmediacontroller_against_resource_lookup_failures",
-      "target": "plans_2026_07_13_android_native_review_codeblock_12",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_codeblock_12"
     },
     {
       "relation": "contains",
@@ -5455,9 +5906,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L436",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_task_4_harden_setupmediacontroller_against_resource_lookup_failures",
-      "target": "plans_2026_07_13_android_native_review_codeblock_13",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_codeblock_13"
     },
     {
       "relation": "contains",
@@ -5465,9 +5916,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L461",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_task_5_ship_the_notificationlistenerservice_manifest_declaration_with_the_plugin",
-      "target": "plans_2026_07_13_android_native_review_codeblock_14",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_codeblock_14"
     },
     {
       "relation": "contains",
@@ -5475,9 +5926,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L484",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_task_5_ship_the_notificationlistenerservice_manifest_declaration_with_the_plugin",
-      "target": "plans_2026_07_13_android_native_review_codeblock_15",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_codeblock_15"
     },
     {
       "relation": "contains",
@@ -5485,9 +5936,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L517",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_task_5_ship_the_notificationlistenerservice_manifest_declaration_with_the_plugin",
-      "target": "plans_2026_07_13_android_native_review_codeblock_16",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_codeblock_16"
     },
     {
       "relation": "contains",
@@ -5495,9 +5946,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L528",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_task_5_ship_the_notificationlistenerservice_manifest_declaration_with_the_plugin",
-      "target": "plans_2026_07_13_android_native_review_codeblock_17",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_codeblock_17"
     },
     {
       "relation": "contains",
@@ -5505,9 +5956,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L544",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_task_5_ship_the_notificationlistenerservice_manifest_declaration_with_the_plugin",
-      "target": "plans_2026_07_13_android_native_review_codeblock_18",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_codeblock_18"
     },
     {
       "relation": "contains",
@@ -5515,9 +5966,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L566",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_task_6_tighten_permissions_scoped_queries_instead_of_query_all_packages_drop_unused_install_shortcut",
-      "target": "plans_2026_07_13_android_native_review_codeblock_19",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_codeblock_19"
     },
     {
       "relation": "contains",
@@ -5525,9 +5976,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L591",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_task_6_tighten_permissions_scoped_queries_instead_of_query_all_packages_drop_unused_install_shortcut",
-      "target": "plans_2026_07_13_android_native_review_codeblock_20",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_codeblock_20"
     },
     {
       "relation": "contains",
@@ -5535,9 +5986,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L608",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_task_6_tighten_permissions_scoped_queries_instead_of_query_all_packages_drop_unused_install_shortcut",
-      "target": "plans_2026_07_13_android_native_review_codeblock_21",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_codeblock_21"
     },
     {
       "relation": "contains",
@@ -5545,9 +5996,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L632",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_task_7_move_getmediaapps_icon_banner_conversion_off_the_main_thread",
-      "target": "plans_2026_07_13_android_native_review_codeblock_22",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_codeblock_22"
     },
     {
       "relation": "contains",
@@ -5555,9 +6006,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L681",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_task_7_move_getmediaapps_icon_banner_conversion_off_the_main_thread",
-      "target": "plans_2026_07_13_android_native_review_codeblock_23",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_codeblock_23"
     },
     {
       "relation": "contains",
@@ -5565,9 +6016,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L716",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_task_7_move_getmediaapps_icon_banner_conversion_off_the_main_thread",
-      "target": "plans_2026_07_13_android_native_review_codeblock_24",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_codeblock_24"
     },
     {
       "relation": "contains",
@@ -5575,9 +6026,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L728",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_task_7_move_getmediaapps_icon_banner_conversion_off_the_main_thread",
-      "target": "plans_2026_07_13_android_native_review_codeblock_25",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_codeblock_25"
     },
     {
       "relation": "contains",
@@ -5585,9 +6036,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L746",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_task_7_move_getmediaapps_icon_banner_conversion_off_the_main_thread",
-      "target": "plans_2026_07_13_android_native_review_codeblock_26",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_codeblock_26"
     },
     {
       "relation": "contains",
@@ -5595,9 +6046,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L770",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_task_8_minor_cleanups",
-      "target": "plans_2026_07_13_android_native_review_codeblock_27",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_codeblock_27"
     },
     {
       "relation": "contains",
@@ -5605,9 +6056,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L776",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_task_8_minor_cleanups",
-      "target": "plans_2026_07_13_android_native_review_codeblock_28",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_codeblock_28"
     },
     {
       "relation": "contains",
@@ -5615,9 +6066,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L782",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_task_8_minor_cleanups",
-      "target": "plans_2026_07_13_android_native_review_codeblock_29",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_codeblock_29"
     },
     {
       "relation": "contains",
@@ -5625,9 +6076,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L790",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_task_8_minor_cleanups",
-      "target": "plans_2026_07_13_android_native_review_codeblock_30",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_codeblock_30"
     },
     {
       "relation": "contains",
@@ -5635,9 +6086,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L796",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_task_8_minor_cleanups",
-      "target": "plans_2026_07_13_android_native_review_codeblock_31",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_codeblock_31"
     },
     {
       "relation": "contains",
@@ -5645,9 +6096,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L823",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_task_8_minor_cleanups",
-      "target": "plans_2026_07_13_android_native_review_codeblock_32",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_codeblock_32"
     },
     {
       "relation": "contains",
@@ -5655,9 +6106,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L846",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_task_9_regression_tests_for_the_serialization_layer_mediainfo_mediaappdetails_bitmaputils",
-      "target": "plans_2026_07_13_android_native_review_codeblock_33",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_codeblock_33"
     },
     {
       "relation": "contains",
@@ -5665,9 +6116,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L897",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_task_9_regression_tests_for_the_serialization_layer_mediainfo_mediaappdetails_bitmaputils",
-      "target": "plans_2026_07_13_android_native_review_codeblock_34",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_codeblock_34"
     },
     {
       "relation": "contains",
@@ -5675,9 +6126,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L931",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_task_9_regression_tests_for_the_serialization_layer_mediainfo_mediaappdetails_bitmaputils",
-      "target": "plans_2026_07_13_android_native_review_codeblock_35",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_codeblock_35"
     },
     {
       "relation": "contains",
@@ -5685,9 +6136,9 @@
       "source_file": "docs/superpowers/plans/2026-07-13-android-native-review.md",
       "source_location": "L998",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_13_android_native_review_task_9_regression_tests_for_the_serialization_layer_mediainfo_mediaappdetails_bitmaputils",
-      "target": "plans_2026_07_13_android_native_review_codeblock_36",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_13_android_native_review_codeblock_36"
     },
     {
       "relation": "calls",
@@ -6557,5 +7008,5 @@
       "source_file": "pubspec.yaml"
     }
   ],
-  "built_at_commit": "251985b3381c879e0f97b28e3e717d264fbe0f7d"
+  "built_at_commit": "36be07899b3aa6eb05a7b4599bfcd94bd2fc45f1"
 }
