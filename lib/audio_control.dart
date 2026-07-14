@@ -30,18 +30,18 @@ class AudioControl {
   static final AudioControl _instance = AudioControl();
   static AudioControl get instance => _instance;
 
-  bool? _isInit = false;
-  bool get isInit => _isInit!;
+  bool _isInit = false;
+  bool get isInit => _isInit;
 
-  setSessionDestroyedListener(StreamController streamController) {
+  void setSessionDestroyedListener(StreamController streamController) {
     AudioControlPlatform.instance.setSessionDestroyedListener(streamController);
   }
 
-  setStateChangeListener(StreamController<MediaInfo> streamController) {
+  void setStateChangeListener(StreamController<MediaInfo> streamController) {
     AudioControlPlatform.instance.setStateChangeListener(streamController);
   }
 
-  setSessionChangedListener(
+  void setSessionChangedListener(
       StreamController<List<MediaAppDetails>> sessionChangedStreamController) {
     AudioControlPlatform.instance
         .setSessionChangedListener(sessionChangedStreamController);
@@ -52,8 +52,9 @@ class AudioControl {
   }
 
   Future<bool?> initialize() async {
-    _isInit = await AudioControlPlatform.instance.initialize();
-    return _isInit;
+    final result = await AudioControlPlatform.instance.initialize();
+    _isInit = result ?? false;
+    return result;
   }
 
   // Future<bool?> isInit() {
