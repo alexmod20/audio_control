@@ -1,4 +1,11 @@
 include: package:flutter_lints/flutter.yaml
 
+linter:
+  rules:
+    # PlayerActions/PlaybackState constants intentionally mirror the
+    # SCREAMING_CASE Android/Kotlin action ids they're kept in sync with
+    # (see AudioControl.performAction) — renaming is a breaking API change.
+    constant_identifier_names: false
+
 # Additional information about this file can be found at
 # https://dart.dev/guides/language/analysis-options

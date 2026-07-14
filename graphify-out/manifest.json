@@ -1,0 +1,206 @@
+{
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/test/audio_control_method_channel_test.dart": {
+    "mtime": 1783945512.7210696,
+    "hash": "2a0ea2a1bda16445f7c22653ce4e4e29"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/test/audio_control_test.dart": {
+    "mtime": 1783945512.721368,
+    "hash": "2932e4f464b6455689b1db9d480834ce"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/example/test/widget_test.dart": {
+    "mtime": 1783945512.7195327,
+    "hash": "d887c6f94552902ba1b05e5d22f840cc"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/example/android/gradlew": {
+    "mtime": 1783928597.5328085,
+    "hash": "7f1cd7eb3f75a1dc85cd37753972a6e2"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/example/android/build.gradle.kts": {
+    "mtime": 1783929104.6621823,
+    "hash": "f11f360aed44d4f6871b398346af14f0"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/example/android/settings.gradle.kts": {
+    "mtime": 1783928823.142989,
+    "hash": "4440672748462857e9bdbbf5fd06fe1a"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/example/android/app/build.gradle.kts": {
+    "mtime": 1783928829.846306,
+    "hash": "8b61c2350efe9523a5a89c4a24eabafb"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/example/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java": {
+    "mtime": 1783928207.1493387,
+    "hash": "0c8c6528ced4da9a5e09bdb2eb3c2522"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/example/android/app/src/main/kotlin/com/alexmod/audio_control_example/MainActivity.kt": {
+    "mtime": 1783926218.061882,
+    "hash": "3bed0cea014003f3973ebbbcca3e6352"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/example/lib/player_page.dart": {
+    "mtime": 1783945512.7184246,
+    "hash": "23c1507b1f36ab3c37d8b5b65643e732"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/example/lib/main.dart": {
+    "mtime": 1783945512.7179482,
+    "hash": "71250ca3431277d8f228567fa3dda022"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/example/lib/app_card.dart": {
+    "mtime": 1783926218.0639734,
+    "hash": "21a120959c6cd9020ba74fde25b33839"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/example/lib/dashboard_page.dart": {
+    "mtime": 1783945512.7174866,
+    "hash": "b5ed86e1ff65e5f90ecc108acbafd4eb"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/android/gradlew": {
+    "mtime": 1783926218.0593371,
+    "hash": "48fe0bd77a66bbb62c1150926ab1332c"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/android/build.gradle": {
+    "mtime": 1783946618.6117911,
+    "hash": "5e2f9d60e850d9b9bdbc6d090558a99e"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/android/settings.gradle": {
+    "mtime": 1783926218.0595062,
+    "hash": "98c71a42902e3d318e7535c495d2626f"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/android/src/test/kotlin/com/alexmod/audio_control/AudioControlGetActiveSessionTest.kt": {
+    "mtime": 1783932425.227609,
+    "hash": "2c5c8ead382ea702adc66b8fa70bcd72"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/android/src/test/kotlin/com/alexmod/audio_control/AudioControlGetMediaAppsTest.kt": {
+    "mtime": 1783934045.4781733,
+    "hash": "879d482c25f6dc6a33910ad067ea0f0d"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/android/src/test/kotlin/com/alexmod/audio_control/AudioControlSetupMediaControllerTest.kt": {
+    "mtime": 1783932677.8790576,
+    "hash": "eb1305fe421641f7aeda0a478071d59a"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/android/src/test/kotlin/com/alexmod/audio_control/AudioControlAlbumArtTest.kt": {
+    "mtime": 1783946964.2026842,
+    "hash": "b41e23882848dbe8490ca7278d8f7253"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/android/src/test/kotlin/com/alexmod/audio_control/AudioControlPerformActionTest.kt": {
+    "mtime": 1783931285.1456137,
+    "hash": "1956b5adf4e5d0327d3652265581d065"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/android/src/test/kotlin/com/alexmod/audio_control/BitmapUtilsTest.kt": {
+    "mtime": 1783935599.6317196,
+    "hash": "fd0f356d0979cd410c686ad870aeb6e5"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/android/src/test/kotlin/com/alexmod/audio_control/MediaInfoTest.kt": {
+    "mtime": 1783935401.1288612,
+    "hash": "ceda4e94a39b1fe87d4775e24a507a4b"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/android/src/test/kotlin/com/alexmod/audio_control/MediaAppDetailsTest.kt": {
+    "mtime": 1783934911.1088355,
+    "hash": "be686363d00cbd897d67cfd6fcfa6e6a"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/android/src/test/kotlin/com/alexmod/audio_control/SmokeTest.kt": {
+    "mtime": 1783930672.2279155,
+    "hash": "62c03ca85a0b68cb07494deb03fb2dc4"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/android/src/main/kotlin/com/alexmod/audio_control/NotificationListener.kt": {
+    "mtime": 1783934686.6844103,
+    "hash": "a2a2d37bd85c9874bcc1466cb85cec45"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/android/src/main/kotlin/com/alexmod/audio_control/AudioControl.kt": {
+    "mtime": 1783945512.715191,
+    "hash": "4852150d2f9b2af20979283ad7c37583"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/android/src/main/kotlin/com/alexmod/audio_control/BitmapUtils.kt": {
+    "mtime": 1783934361.8324726,
+    "hash": "39944392491c5183ef8bdd5cf7bf391b"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/android/src/main/kotlin/com/alexmod/audio_control/MediaAppDetailsUtils.kt": {
+    "mtime": 1783934377.0696814,
+    "hash": "a436fd6791b259d1565002ec522a6964"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/android/src/main/kotlin/com/alexmod/audio_control/MediaInfo.kt": {
+    "mtime": 1783926218.0606017,
+    "hash": "4cbd49b1f532a56d4db48b847f89b991"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/android/src/main/kotlin/com/alexmod/audio_control/AudioControlPlugin.kt": {
+    "mtime": 1783934371.7486148,
+    "hash": "bb320cbfc90433f08be875e385f634cf"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/android/src/main/kotlin/com/alexmod/audio_control/MediaAppDetails.kt": {
+    "mtime": 1783926218.0604117,
+    "hash": "7f53f458872e8a7a38e2bf512987487a"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/lib/audio_control.dart": {
+    "mtime": 1783945512.7198472,
+    "hash": "46554afdd6959a49e5734627ef0d05ad"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/lib/media_app_details.dart": {
+    "mtime": 1783926218.085644,
+    "hash": "26283e072bf9ded211b0147aff0039b3"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/lib/audio_control_platform_interface.dart": {
+    "mtime": 1783945512.7202492,
+    "hash": "d53b96f4ff56200b4731b2ccdd4eb3f4"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/lib/audio_control_method_channel.dart": {
+    "mtime": 1783926218.065146,
+    "hash": "adc661496bdc8883ec5e1dc9318759d7"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/lib/media_info.dart": {
+    "mtime": 1783926218.0857787,
+    "hash": "be6d75ec96f0e5dc0814229e6a6dd28a"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/CHANGELOG.md": {
+    "mtime": 1783926218.0582466,
+    "hash": "a752c607756c890c82ff4f1a562cb66b"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/README.md": {
+    "mtime": 1783933045.9285262,
+    "hash": "eeedbfe7ae3502f332b32636d904679e"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/pubspec.yaml": {
+    "mtime": 1783945512.720673,
+    "hash": "5098eb708249fcc5af090ce78b747202"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/analysis_options.yaml": {
+    "mtime": 1783945512.7132506,
+    "hash": "97f0ff59d13305fca265704e341e0892"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/CLAUDE.md": {
+    "mtime": 1783927239.3212612,
+    "hash": "34c2a26533f0868082db3ddabe894219"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/example/README.md": {
+    "mtime": 1783926218.0608885,
+    "hash": "cb27d2cc10a2a8e395c6c5ef76eac984"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/example/pubspec.yaml": {
+    "mtime": 1783945512.7192242,
+    "hash": "e6431abe6316af1c8172e40f19991ee6"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/example/analysis_options.yaml": {
+    "mtime": 1783926218.060969,
+    "hash": "90ca05185a2de012cebf6fb9f85f3598"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/docs/superpowers/plans/2026-07-13-android-native-review.md": {
+    "mtime": 1783930457.5507522,
+    "hash": "f3fcfd0f221073606356e9fab314ec4e"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/example/android/app/src/main/res/mipmap-mdpi/ic_launcher.png": {
+    "mtime": 1783926218.0625377,
+    "hash": "6270344430679711b81476e29878caa7"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/example/android/app/src/main/res/mipmap-hdpi/ic_launcher.png": {
+    "mtime": 1783926218.0623858,
+    "hash": "13e9c72ec37fac220397aa819fa1ef2d"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/example/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png": {
+    "mtime": 1783926218.062968,
+    "hash": "57838d52c318faff743130c3fcfae0c6"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/example/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png": {
+    "mtime": 1783926218.062811,
+    "hash": "afe1b655b9f32da22f9a4301bb8e6ba8"
+  },
+  "/Users/alessandromarengoni/Documents/MyProjects/audio_control/example/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png": {
+    "mtime": 1783926218.0626757,
+    "hash": "a0a8db5985280b3679d99a820ae2db79"
+  }
+}

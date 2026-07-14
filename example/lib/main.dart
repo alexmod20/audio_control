@@ -1,6 +1,5 @@
 import 'package:audio_control_example/dashboard_page.dart';
 import 'package:flutter/material.dart';
-import 'package:audio_control/audio_control.dart';
 
 void main() {
   runApp(const MyApp());

@@ -27,23 +27,23 @@ abstract class AudioControlPlatform extends PlatformInterface {
     _instance = instance;
   }
 
-  dispose() {
+  void dispose() {
     throw UnimplementedError('dispose() has not been implemented.');
   }
 
-  setSessionDestroyedListener(
+  void setSessionDestroyedListener(
       StreamController sessionDestroyedStreamController) {
     throw UnimplementedError(
         'setSessionDestroyedListener() has not been implemented.');
   }
 
-  setStateChangeListener(
+  void setStateChangeListener(
       StreamController<MediaInfo> stateChangeStreamController) {
     throw UnimplementedError(
         'setStateChangeListener() has not been implemented.');
   }
 
-  setSessionChangedListener(
+  void setSessionChangedListener(
       StreamController<List<MediaAppDetails>>? sessionChangedStreamController) {
     throw UnimplementedError(
         'setSessionChangedListener() has not been implemented.');

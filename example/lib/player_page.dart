@@ -4,7 +4,7 @@ import 'package:audio_control/audio_control.dart';
 import 'package:audio_control/media_info.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:wakelock/wakelock.dart';
+import 'package:wakelock_plus/wakelock_plus.dart';
 
 final Map<PlayerActions, IconData> actionIcons = {
   PlayerActions.STOP: Icons.stop,
@@ -32,12 +32,13 @@ class _PlayerPageState extends State<PlayerPage> {
   @override
   void initState() {
     super.initState();
-    Wakelock.enable();
+    WakelockPlus.enable();
     AudioControl.instance
         .setSessionDestroyedListener(sessionDestroyedStreamController);
     AudioControl.instance.setStateChangeListener(stateChangeStreamController);
     sessionDestroyedSubscription =
         sessionDestroyedStreamController.stream.listen((event) {
+      if (!mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
           content: Text("Session is expired"),
@@ -54,7 +55,7 @@ class _PlayerPageState extends State<PlayerPage> {
     sessionDestroyedSubscription?.cancel();
     sessionDestroyedStreamController.close();
     stateChangeStreamController.close();
-    Wakelock.disable();
+    WakelockPlus.disable();
   }
 
   Widget _buildPlayerButtons(PlaybackState state) {

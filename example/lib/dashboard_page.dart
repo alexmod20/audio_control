@@ -26,6 +26,7 @@ class LifecycleEventHandler extends WidgetsBindingObserver {
         }
         break;
       case AppLifecycleState.inactive:
+      case AppLifecycleState.hidden:
       case AppLifecycleState.paused:
       case AppLifecycleState.detached:
         if (suspendingCallBack != null) {
@@ -119,6 +120,7 @@ class _DashboardPageState extends State<DashboardPage> {
                                               .controlMediaApp(
                                                   sessionAppDetailsList[index]
                                                       .packageName);
+                                          if (!context.mounted) return;
                                           if (result) {
                                             Navigator.of(context)
                                                 .push(MaterialPageRoute(
@@ -127,6 +129,7 @@ class _DashboardPageState extends State<DashboardPage> {
                                             ));
                                           }
                                         } catch (e) {
+                                          if (!context.mounted) return;
                                           showDialog(
                                               context: context,
                                               builder: (context) => AlertDialog(

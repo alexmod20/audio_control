@@ -165,11 +165,8 @@ class AudioControl {
                     title = mediaMetadata.getString(MediaMetadataCompat.METADATA_KEY_TITLE),
                     artist = mediaMetadata.getString(MediaMetadataCompat.METADATA_KEY_ARTIST),
                     album = mediaMetadata.getString(MediaMetadataCompat.METADATA_KEY_ALBUM),
-                    image = BitmapUtils.bitmapToByteArray(
-                        mediaMetadata.getBitmap(
-                            MediaMetadataCompat.METADATA_KEY_ALBUM_ART
-                        )
-                    ),
+                    image = mediaMetadata.getBitmap(MediaMetadataCompat.METADATA_KEY_ALBUM_ART)
+                        ?.let { BitmapUtils.bitmapToByteArray(it) },
                     state = playbackState.state,
                     customAction = customAction.map { ca ->
                         val drawable = ResourcesCompat.getDrawable(resources, ca.icon, null)

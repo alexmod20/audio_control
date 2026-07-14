@@ -33,15 +33,15 @@ class AudioControl {
   bool? _isInit = false;
   bool get isInit => _isInit!;
 
-  setSessionDestroyedListener(StreamController streamController) {
+  void setSessionDestroyedListener(StreamController streamController) {
     AudioControlPlatform.instance.setSessionDestroyedListener(streamController);
   }
 
-  setStateChangeListener(StreamController<MediaInfo> streamController) {
+  void setStateChangeListener(StreamController<MediaInfo> streamController) {
     AudioControlPlatform.instance.setStateChangeListener(streamController);
   }
 
-  setSessionChangedListener(
+  void setSessionChangedListener(
       StreamController<List<MediaAppDetails>> sessionChangedStreamController) {
     AudioControlPlatform.instance
         .setSessionChangedListener(sessionChangedStreamController);
