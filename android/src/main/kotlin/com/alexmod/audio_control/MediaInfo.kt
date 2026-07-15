@@ -8,7 +8,9 @@ class MediaInfo(
     val album: String?,
     val image: ByteArray?,
     val state: Int,
-    val customAction: List<HashMap<String, Any?>>?
+    val customAction: List<HashMap<String, Any?>>?,
+    val mediaId: String?,
+    val mediaUri: String?
 ) {
     fun toHasMap(): HashMap<String, Any?> = hashMapOf(
         "title" to title,
@@ -16,7 +18,9 @@ class MediaInfo(
         "album" to album,
         "image" to image,
         "state" to state,
-        "customAction" to customAction
+        "customAction" to customAction,
+        "mediaId" to mediaId,
+        "mediaUri" to mediaUri
     )
 
     companion object {

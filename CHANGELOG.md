@@ -1,3 +1,8 @@
+## 0.0.2
+
+* Add `mediaId` and `mediaUri` fields to `MediaInfo`, populated from the playing app's `MediaMetadataCompat.METADATA_KEY_MEDIA_ID`/`METADATA_KEY_MEDIA_URI` when available, to help identify a track across state updates.
+* Document the full plugin API and usage in `README.md`.
+
 ## 0.0.1
 
 * Android-only plugin exposing other apps' media sessions: enumerate media apps, read now-playing metadata/artwork, and send transport controls to the active `MediaSession`.

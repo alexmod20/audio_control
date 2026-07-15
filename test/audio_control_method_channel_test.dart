@@ -79,10 +79,14 @@ void main() {
         'image': null,
         'state': 3,
         'customAction': [],
+        'mediaId': 'media-id-123',
+        'mediaUri': 'content://media/track/123',
       }));
 
       expect(received, hasLength(1));
       expect(received.single.title, 'Song');
+      expect(received.single.mediaId, 'media-id-123');
+      expect(received.single.mediaUri, 'content://media/track/123');
 
       await sub.cancel();
       await controller.close();

@@ -23,6 +23,8 @@ class MediaInfo {
   Uint8List? image;
   PlaybackState state;
   List<Map<String, dynamic>> customAction;
+  String? mediaId;
+  String? mediaUri;
 
   static final Map<int, PlaybackState> _playbackStateMap = {
     0: PlaybackState.NONE,
@@ -48,5 +50,7 @@ class MediaInfo {
         image = map['image'],
         customAction = List.from(map['customAction'])
             .map((e) => Map<String, dynamic>.from(e))
-            .toList();
+            .toList(),
+        mediaId = map['mediaId'],
+        mediaUri = map['mediaUri'];
 }

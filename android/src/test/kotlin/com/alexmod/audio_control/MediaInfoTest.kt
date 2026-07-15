@@ -19,6 +19,8 @@ class MediaInfoTest {
             image = byteArrayOf(4, 5, 6),
             state = PlaybackStateCompat.STATE_PLAYING,
             customAction = listOf(customAction),
+            mediaId = "media-id-123",
+            mediaUri = "content://media/track/123",
         )
 
         val map = mediaInfo.toHasMap()
@@ -29,6 +31,8 @@ class MediaInfoTest {
         assertEquals(byteArrayOf(4, 5, 6).toList(), (map["image"] as ByteArray).toList())
         assertEquals(PlaybackStateCompat.STATE_PLAYING, map["state"])
         assertEquals(listOf(customAction), map["customAction"])
+        assertEquals("media-id-123", map["mediaId"])
+        assertEquals("content://media/track/123", map["mediaUri"])
     }
 
     @Test

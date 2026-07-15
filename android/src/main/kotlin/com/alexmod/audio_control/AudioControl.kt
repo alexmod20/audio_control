@@ -178,6 +178,8 @@ class AudioControl {
                         val icon = if (drawable != null) BitmapUtils.convertDrawable(drawable) else ByteArray(0)
                         MediaInfo.customActionToHashMap(ca, icon)
                     },
+                    mediaId = mediaMetadata.getString(MediaMetadataCompat.METADATA_KEY_MEDIA_ID),
+                    mediaUri = mediaMetadata.getString(MediaMetadataCompat.METADATA_KEY_MEDIA_URI),
                 )
                 onStateChanged(mediaInfo)
             }
